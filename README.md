@@ -13,6 +13,7 @@ Cocoapods
 
 To Install: 
 
+```
 git clone: https://github.com/ianhunterharold/daily_parrot_tarot
 cd daily_parrot_tarot
 npm install
@@ -20,5 +21,6 @@ cd ios/
 pod install
 cd ../
 npx react-native run-ios
+```
 
 Also made with Love <3 from Montreal 
