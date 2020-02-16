@@ -23,4 +23,5 @@ cd ../
 npx react-native run-ios
 ```
 
-Also made with Love <3 from Montreal 
+
+Fait avec amour de Montréal <3
