@@ -1,4 +1,4 @@
-# daily_parrot_tarot
+# Daily Parrot Tarot
 Daily Reading with Birds by Ian to Practice React Native and the Publishing Process Solo.
 
 
