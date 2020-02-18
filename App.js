@@ -1,17 +1,27 @@
 import React from 'react';
+import { Component } from 'react';
 import { SafeAreaView, StyleSheet, ScrollView, View, Text, StatusBar } from 'react-native';
-import { Header, LearnMoreLinks, Colors, DebugInstructions, ReloadInstructions } from 'react-native/Libraries/NewAppScreen';
+
+// import { Header, LearnMoreLinks, Colors, DebugInstructions, ReloadInstructions } from 'react-native/Libraries/NewAppScreen';
+
 import Styles from './src/style/style.js'
+import LandingPage from './src/containers/LandingPage';
+import AskPage from './src/containers/AskPage';
+import Card from './src/components/Card';
 
 const App: () => React$Node = () => {
+  
   return (
     <>
     
       <SafeAreaView>
       {/* style={Styles.body} */}
           <View>
-            <View style={Styles.sectionContainer}>   
-            <Text>Hello World</Text>         
+            <View style={Styles.sectionContainer}> 
+            <LandingPage/>
+            <AskPage/>
+            <Card/>
+            <Text>Hello World in app.js</Text>         
             </View>
           </View>
     
