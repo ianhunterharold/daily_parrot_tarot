@@ -8,7 +8,8 @@ const App: () => React$Node = () => {
     <>
     
       <SafeAreaView>
-          <View style={Styles.body}>
+      {/* style={Styles.body} */}
+          <View>
             <View style={Styles.sectionContainer}>   
             <Text>Hello World</Text>         
             </View>
