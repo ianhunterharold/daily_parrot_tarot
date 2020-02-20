@@ -14,18 +14,17 @@ const App: () => React$Node = () => {
   return (
     <>
     
-      <SafeAreaView>
+      {/* <SafeAreaView> */}
       {/* style={Styles.body} */}
-          <View>
-            <View style={Styles.sectionContainer}> 
+          <View style={Styles.LandingPageContainer}>
+            {/* style={Styles.sectionContainer} */}
             <LandingPage/>
-            <AskPage/>
-            <Card/>
-            <Text>Hello World in app.js</Text>         
-            </View>
+            {/* <AskPage/> */}
+            {/* <Card/> */}
+            {/* <Text>Hello World in app.js</Text>          */}
           </View>
     
-      </SafeAreaView>
+      {/* </SafeAreaView> */}
     </>
   );
 };
