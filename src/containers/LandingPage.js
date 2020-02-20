@@ -5,18 +5,21 @@ import Styles from '../style/style';
 
 class LandingPage extends Component{
 
+  handleLandingPageTouch = () => {
+    console.log("did I touch the button?")
+    //after touching the button render, a new component
+    
+  }
+
   render(){
     return(
-      <View>
+      <View >
         <Button 
-        // style = { Styles.landingPageButton }
-        // looking at add border, not visible currently
-
+        onPress={this.handleLandingPageTouch}
         title="venture"
-        border='visible'
         >
         </Button>
-        <Text>In the landing page container</Text>
+        <Text style={Styles.LandingPageInstructions}>In the landing page container</Text>
       </View>
     )
   }

@@ -7,10 +7,25 @@ const Styles = StyleSheet.create({
   // body: {
   //   backgroundColor: white
   // },
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24
-  }
+  // sectionContainer: {
+  //   marginTop: 32,
+  //   paddingHorizontal: 24
+  // },
+  loadingPageButton: {
+    borderWidth: 1,
+  },
+  LandingPageContainer: {
+		flex: 1,
+		justifyContent: 'center',
+		alignItems: 'center',
+		backgroundColor: '#F5FCFF'
+	},
+	LandingPageInstructions: {
+		textAlign: 'center',
+		color: '#333333',
+		marginBottom: 5
+	}
+
 });
 
 export default Styles;
