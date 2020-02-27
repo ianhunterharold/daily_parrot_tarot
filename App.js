@@ -6,24 +6,21 @@ import { SafeAreaView, StyleSheet, ScrollView, View, Text, StatusBar } from 'rea
 
 import Styles from './src/style/style.js'
 import LandingPage from './src/containers/LandingPage';
-import AskPage from './src/containers/AskPage';
+// import AskPage from './src/containers/AskPage';
 import Card from './src/components/Card';
 
 const App: () => React$Node = () => {
-  
+
   return (
     <>
-    
       {/* <SafeAreaView> */}
       {/* style={Styles.body} */}
           <View style={Styles.LandingPageContainer}>
             {/* style={Styles.sectionContainer} */}
             <LandingPage/>
-            <AskPage/>
             {/* <Card/> */}
-            {/* <Text>Hello World in app.js</Text>          */}
+            {/* <Text>Hello World in app.js</Text> */}
           </View>
-    
       {/* </SafeAreaView> */}
     </>
   );
