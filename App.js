@@ -19,7 +19,7 @@ const App: () => React$Node = () => {
           <View style={Styles.LandingPageContainer}>
             {/* style={Styles.sectionContainer} */}
             <LandingPage/>
-            {/* <AskPage/> */}
+            <AskPage/>
             {/* <Card/> */}
             {/* <Text>Hello World in app.js</Text>          */}
           </View>
