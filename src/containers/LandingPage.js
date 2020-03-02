@@ -11,7 +11,6 @@ class LandingPage extends Component{
   }
 
   handleLandingPageTouch = () => {
-    console.log("did I touch the button?")
     //after touching the button render, a new component
     this.setState({
       clickedOnButton: 'true'
