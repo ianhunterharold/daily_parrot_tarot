@@ -4,21 +4,21 @@ import { View,Text,Button } from 'react-native';
 import Styles from '../style/style';
 import AskPage from './AskPage';
 
-class LandingPage extends Component{
 
+class LandingPage extends Component{
   state = {
-    clickedOnButton: 'false'
+    askPageComponentRender: 'false',
   }
 
   handleLandingPageTouch = () => {
     //after touching the button render, a new component
     this.setState({
-      clickedOnButton: 'true'
+      askPageComponentRender: 'true'
     })
   }
 
   renderAskPageComponent = () => {
-    if (this.state.clickedOnButton === 'true'){
+    if (this.state.askPageComponentRender === 'true'){
       return <AskPage/>
     }
   }
@@ -28,11 +28,9 @@ class LandingPage extends Component{
       <View >
         {this.renderAskPageComponent()}
         <Button 
-        onPress={this.handleLandingPageTouch}
-        title="venture"
-        >
-        </Button>
-        <Text style={Styles.LandingPageInstructions}>landing page, make it look good </Text>
+          onPress={this.handleLandingPageTouch}
+          title="venture"
+        />
       </View>
     )
   }
