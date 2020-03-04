@@ -1,6 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import { SafeAreaView, StyleSheet, ScrollView, View, Text, Button, StatusBar } from 'react-native';
+import { Router, Scene } from 'react-native-router-flux';
 
 // import { Header, LearnMoreLinks, Colors, DebugInstructions, ReloadInstructions } from 'react-native/Libraries/NewAppScreen';
 
@@ -15,28 +16,26 @@ class App extends Component {
 
   render(){
     return (
-      <>
-        <View style={Styles.LandingPageContainer}>
-          <LandingPage/>
-          <Text style={Styles.LandingPageInstructions}>
+      <Router>
+        {/* <View style={Styles.LandingPageContainer}> */}
+          <Scene key='root'>
+            <Scene key='landingPage'
+            component ={LandingPage}
+            title="LandingPage"
+            initial
+            />
+          {/* <Text style={Styles.LandingPageInstructions}>
             app level 
-          </Text>
-        </View>
-      </>
+          </Text> */}
+          <Scene
+          key="askPage"
+          component = {AskPage}
+          title='AskPage'
+          />
+        </Scene>
+      </Router>
     );
   }
 }
-
-// const styles = StyleSheet.create({
-//   // will abstract out styling into seperate component and then import it
-//   //task for monday feb 17th 2020
-//   body: {
-//     backgroundColor: Colors.white,
-//   },
-//   sectionContainer: {
-//     marginTop: 32,
-//     paddingHorizontal: 24
-//   }
-// });
 
 export default App;
