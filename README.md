@@ -27,3 +27,4 @@ npx react-native run-ios
 
 
 Fait avec amour de Montréal <3
+Made with Love <3
