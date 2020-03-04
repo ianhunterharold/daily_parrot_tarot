@@ -1,7 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import { SafeAreaView, StyleSheet, ScrollView, View, Text, Button, StatusBar } from 'react-native';
-import { Router, Scene } from 'react-native-router-flux';
+// import { Router, Scene } from 'react-native-router-flux';
 
 // import { Header, LearnMoreLinks, Colors, DebugInstructions, ReloadInstructions } from 'react-native/Libraries/NewAppScreen';
 
@@ -16,24 +16,30 @@ class App extends Component {
 
   render(){
     return (
-      <Router>
-        {/* <View style={Styles.LandingPageContainer}> */}
-          <Scene key='root'>
-            <Scene key='landingPage'
-            component ={LandingPage}
-            title="LandingPage"
-            initial
-            />
-          {/* <Text style={Styles.LandingPageInstructions}>
-            app level 
-          </Text> */}
-          <Scene
-          key="askPage"
-          component = {AskPage}
-          title='AskPage'
-          />
-        </Scene>
-      </Router>
+      <>
+      <View>
+        <Text>inside of app</Text>
+      </View>
+      </>
+
+      // <Router>
+      //   {/* <View style={Styles.LandingPageContainer}> */}
+      //     <Scene key='root'>
+      //       <Scene key='landingPage'
+      //       component ={LandingPage}
+      //       title="LandingPage"
+      //       initial
+      //       />
+      //     {/* <Text style={Styles.LandingPageInstructions}>
+      //       app level 
+      //     </Text> */}
+      //     <Scene
+      //     key="askPage"
+      //     component = {AskPage}
+      //     title='AskPage'
+      //     />
+      //   </Scene>
+      // </Router>
     );
   }
 }
