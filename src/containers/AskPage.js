@@ -30,8 +30,7 @@ class AskPage extends Component{
       clickedOnAsk: 'true'
     }) 
   }
-    
-
+  
   render(){
     return(
       <View>
