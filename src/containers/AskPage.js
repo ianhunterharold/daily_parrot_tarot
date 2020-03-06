@@ -7,7 +7,7 @@ class AskPage extends Component{
   state ={
     question:'',
     clickedOnAsk: 'false'
-  }npm install --save react-navigation
+  }
 
   onChangeText = (Text) => {
     // console.log('Text that you input', this.state.question)

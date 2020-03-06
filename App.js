@@ -8,6 +8,7 @@ import Styles from './src/style/style.js'
 import AskPage from './src/containers/AskPage'
 import LandingPage from './src/containers/LandingPage';
 import Card from './src/components/Card';
+import AppNavigator from './src/containers/AppNavigator.js';
 
 
 class App extends Component {
@@ -17,7 +18,8 @@ class App extends Component {
       <>
         <View style={Styles.LandingPageContainer}>
         <Text>inside of app</Text>
-          <LandingPage/>
+          {/* <LandingPage/> */}
+          <AppNavigator/>
         </View>
       </>
     )
