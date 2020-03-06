@@ -1,3 +1,9 @@
+import 'react-native-gesture-handler';
+//line above needs to stay at the top indicated by https://reactnavigation.org/docs/getting-started/
+
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+
 import React from 'react';
 import { Component } from 'react';
 import { SafeAreaView, StyleSheet, ScrollView, View, Text, Button, StatusBar } from 'react-native';
@@ -15,13 +21,13 @@ class App extends Component {
   
   render(){
     return(
-      <>
-        <View style={Styles.LandingPageContainer}>
-        <Text>inside of app</Text>
+      // <>
+      //   <View style={Styles.LandingPageContainer}>
+      //   <Text>inside of app</Text>
           {/* <LandingPage/> */}
-          <AppNavigator/>
-        </View>
-      </>
+          <NavigationContainer>{ <AppNavigator/> }</NavigationContainer>
+        {/* </View>
+      </> */}
     )
   }
 }
