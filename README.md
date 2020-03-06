@@ -16,7 +16,7 @@ To Install:
 ```
 git clone: https://github.com/ianhunterharold/daily_parrot_tarot
 cd daily_parrot_tarot
-npm install --save react-router-native
+
 npm install
 cd ios/
 pod install
@@ -25,6 +25,6 @@ cd ../
 npx react-native run-ios
 ```
 
-
+ -- might not include -- npm install --save react-router-native
 Fait avec amour de Montréal <3
 Made with Love <3
