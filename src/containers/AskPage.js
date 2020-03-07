@@ -1,54 +1,34 @@
 import React from 'react';
-import { Component } from 'react';
-import { View, Text, TextInput, Button } from 'react-native';
-import Card from '../components/Card';
+import { Button, View, Text, TextInput } from 'react-native';
 
-class AskPage extends Component{
-  state ={
-    question:'',
-    clickedOnAsk: 'false'
-  }
+// state ={
+//   question:'',
+//   clickedOnAsk: 'false'
+// }
 
-  onChangeText = (Text) => {
-    // console.log('Text that you input', this.state.question)
-    this.setState({
-      question: Text
-    })
-  }
+// onChangeText = (Text) => {
+//   // console.log('Text that you input', this.state.question)
+//   this.setState({
+//     question: Text
+//   })
+// }
 
-  renderCardComponent = () => {
-    if(this.state.clickedOnAsk === 'true'){
-      console.log(this.state.clickedOnAsk,"clicked on ask")
-      return <Card/>
-    }
-  }
-  onSubmitQuestion = (input) => {
-    // console.log('input, did you clikc the submit', input) worked, great
-    // alert("did i touch the button?")
-    // remove all elements on the page 
-    this.setState({
-      clickedOnAsk: 'true'
-    }) 
-  }
-  
-  render(){
-    return(
-      <View>
-        {this.renderCardComponent()}
-        <Text>Inside of AskPage Container</Text>
+// understand how a function works with state and functions 
+
+export default function AskPage({ navigation }) {
+
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>AskPage, picture, better button</Text>
         <TextInput
-          style={{ height: 50, borderColor: 'gray', borderWidth: 2 }}
-          onChangeText={text => this.onChangeText(text)}
+          style={{ height: 50, width: 150, borderColor: 'gray', borderWidth: 3 }}
+          // onChangeText={text => this.onChangeText(text)}
           // value={value}
         />
-        <Button 
-        onPress={input => this.onSubmitQuestion(input) }
-        title="Ask"
-        />
-      </View>
-    )
-  }
-
+      <Button
+        title="It's the question that drives us..."
+        onPress={() => navigation.navigate('Card')}
+      />
+    </View>
+  );
 }
-
-export default AskPage;

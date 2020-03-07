@@ -1,5 +1,6 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 
+const {width: WIDTH, height: HEIGHT} = Dimensions.get('window')
 
 const Styles = StyleSheet.create({
   // will abstract out styling into seperate component and then import it
@@ -24,8 +25,12 @@ const Styles = StyleSheet.create({
 		textAlign: 'center',
 		color: '#333333',
 		marginBottom: 5
-	}
-
+  },
+  Card: {
+    height: 100,
+    width: 100,
+    alignContent: "center"
+  }
 });
 
 export default Styles;
