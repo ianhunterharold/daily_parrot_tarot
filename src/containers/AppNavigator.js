@@ -1,6 +1,6 @@
 // import { createStackNavigator } from 'react-navigation-stack';
-import { createStackNavigator } from '@react-navigation/stack';
-import LandingPage from './LandingPage';
+// import { createStackNavigator } from '@react-navigation/stack';
+// import LandingPage from './LandingPage';
 
 // const Stack = createStackNavigator();
 
@@ -10,15 +10,17 @@ import LandingPage from './LandingPage';
 
 // export default AppNavigator;
 
-const Stack = createStackNavigator();
+// const Stack = createStackNavigator();
 
-function MyStack() {
-  return (
-    <Stack.Navigator>
-      <Stack.Screen name="LandingPage" component={LandingPage} />
-      {/* <Stack.Screen name="Notifications" component={Notifications} />
-      <Stack.Screen name="Profile" component={Profile} />
-      <Stack.Screen name="Settings" component={Settings} /> */}
-    </Stack.Navigator>
-  );
-}
+// function MyStack() {
+//   return (
+//     <Stack.Navigator>
+//       <Stack.Screen name="LandingPage" component={LandingPage} />
+//       {/* <Stack.Screen name="Notifications" component={Notifications} />
+//       <Stack.Screen name="Profile" component={Profile} />
+//       <Stack.Screen name="Settings" component={Settings} /> */}
+//     </Stack.Navigator>
+//   );
+// }
+
+// export default AppNavigator;
