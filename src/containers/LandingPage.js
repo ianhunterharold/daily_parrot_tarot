@@ -9,7 +9,7 @@ export default function LandingPage({ navigation }) {
       </Text>
       <Button 
         title="Venture"
-        onPress={() => navigation.navigate('AskPage')}
+        onPress={() => navigation.navigate('Ask Away')}
       />
     </View>
   );

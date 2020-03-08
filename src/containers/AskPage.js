@@ -27,7 +27,7 @@ export default function AskPage({ navigation }) {
         />
       <Button
         title="It's the question that drives us..."
-        onPress={() => navigation.navigate('Card')}
+        onPress={() => navigation.navigate('Reading')}
       />
     </View>
   );
