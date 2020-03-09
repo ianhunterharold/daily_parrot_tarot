@@ -36,9 +36,12 @@ const Styles = StyleSheet.create({
     borderRadius: 70
   },
   landingPageWelcomeMessage : {
+    fontWeight: '400',
     marginTop: 50,
     alignSelf: 'center',
-    textAlign:'center'
+    textAlign:'center',
+    color:'#FA6A30',
+    fontSize: 17
   }
 
 
