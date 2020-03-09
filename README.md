@@ -17,7 +17,6 @@ To Install:
 git clone: https://github.com/ianhunterharold/daily_parrot_tarot
 cd daily_parrot_tarot
 npm install --save react-navigation
-   npm install --save react-native-elements 
 npm install --save react-native-gesture-handler
 npm install
 cd ios/
@@ -27,6 +26,8 @@ cd ../
 npx react-native run-ios
 ```
 
- -- on the out list -- npm install --save react-router-native
+ -- on the out list
+ -- npm install --save react-router-native
+ npm install --save react-native-elements 
 Fait avec amour de Montréal <3
 Made with Love <3
