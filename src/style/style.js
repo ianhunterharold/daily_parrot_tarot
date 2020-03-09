@@ -30,7 +30,11 @@ const Styles = StyleSheet.create({
     height: 100,
     width: 100,
     alignContent: "center"
-  }
+  },
+  LandingPageImageStyle: {
+    height: 100,
+    width: 100,
+    alignContent: "center"  }
 });
 
 export default Styles;

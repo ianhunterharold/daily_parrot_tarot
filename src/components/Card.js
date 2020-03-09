@@ -11,9 +11,6 @@ class Card extends Component{
     // will assign a random image 
   }
 
-  // componentDidMount(){
-  // }
-
   render(){
     return(
       <>

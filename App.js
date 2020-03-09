@@ -16,8 +16,6 @@ import Card from './src/components/Card';
 // import { SafeAreaView, StyleSheet, ScrollView, View, Text, Button, StatusBar } from 'react-native';
 // import { Header, LearnMoreLinks, Colors, DebugInstructions, ReloadInstructions } from 'react-native/Libraries/NewAppScreen';
 
-
-
 const Stack = createStackNavigator();
 
 export default function App() {
