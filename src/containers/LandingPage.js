@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Button, View, Text,Image } from 'react-native';
-import landingPageImage from '../img/landingPageImage.png'
+// import landingPageImage from '../img/landingPageImage.png'
 import Styles from '../style/style';
 
 
@@ -12,14 +12,16 @@ export default function LandingPage({ navigation }) {
     return (
       // style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}
       <View>
+        
+        <Text style={Styles.landingPageWelcomeMessage} >
+          Welcome to your daily bird reading! Venture beyond and ask what is on your mind.
+        </Text>
         <Image   
-          source= {landingPageImage}
+          source= {require('../img/landingPageImage.png')}
           style={Styles.LandingPageImageStyle} 
         />
-        <Text>
-          picture and better button
-        </Text>
         <Button 
+          color="#FAD661"
           title="Venture"
           onPress={() => navigation.navigate('Ask Away')}
         />

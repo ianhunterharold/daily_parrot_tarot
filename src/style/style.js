@@ -1,17 +1,10 @@
 import { StyleSheet, Dimensions } from 'react-native';
 
 const {width: WIDTH, height: HEIGHT} = Dimensions.get('window')
+// haven't used this yet.
 
 const Styles = StyleSheet.create({
-  // will abstract out styling into seperate component and then import it
-  //task for monday feb 17th 2020
-  // body: {
-  //   backgroundColor: white
-  // },
-  // sectionContainer: {
-  //   marginTop: 32,
-  //   paddingHorizontal: 24
-  // },
+
   loadingPageButton: {
     borderWidth: 1,
   },
@@ -32,9 +25,23 @@ const Styles = StyleSheet.create({
     alignContent: "center"
   },
   LandingPageImageStyle: {
+    //not fulling understadning css that flexes with different containers YET. I know that my styling is not build for flexiability yet either.
+    marginTop: 50,
+    marginBottom: 80,
+    paddingTop: 500,
+    alignSelf: 'center',
     height: 100,
-    width: 100,
-    alignContent: "center"  }
+    width: 300,
+    borderWidth: 1,
+    borderRadius: 70
+  },
+  landingPageWelcomeMessage : {
+    marginTop: 50,
+    alignSelf: 'center',
+    textAlign:'center'
+  }
+
+
 });
 
 export default Styles;
