@@ -9,9 +9,7 @@ export default function LandingPage({ navigation }) {
 
 // class LandingPage extends Component{
     return (
-      // style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}
       <View>
-        
         <Text style={Styles.landingPageWelcomeMessage} >
           Welcome to your daily bird reading! {'\n'}
           Venture beyond and ask what is on your mind.

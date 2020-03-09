@@ -36,7 +36,34 @@ const Styles = StyleSheet.create({
     borderRadius: 70
   },
   landingPageWelcomeMessage : {
-    fontWeight: '400',
+    fontWeight: 'bold',
+    marginTop: 50,
+    alignSelf: 'center',
+    textAlign:'center',
+    color:'#FA6A30',
+    fontSize: 17
+  },
+  questionPageImage: {
+    marginTop: 50,
+    marginBottom: 40,
+    paddingTop: 500,
+    alignSelf: 'center',
+    height: 100,
+    width: 300,
+    borderWidth: 1,
+    borderRadius: 70
+  },
+  askPageTextInputBox: {
+    height: 50, 
+    width: 270, 
+    borderColor: 'gray', 
+    borderWidth: 3,
+    alignSelf: 'center',
+    marginBottom: 20,
+    borderRadius: 12
+  },
+  questionPageMessage: {
+    fontWeight: 'bold',
     marginTop: 50,
     alignSelf: 'center',
     textAlign:'center',
