@@ -25,7 +25,7 @@ const Styles = StyleSheet.create({
     alignContent: "center"
   },
   LandingPageImageStyle: {
-    //not fulling understadning css that flexes with different containers YET. I know that my styling is not build for flexiability yet either.
+    //not fulling understadning css that flexes with different containers YET. I know that my styling is not build for flexiability yet either. will update to reflect multiple devices.
     marginTop: 50,
     marginBottom: 80,
     paddingTop: 500,
@@ -69,8 +69,26 @@ const Styles = StyleSheet.create({
     textAlign:'center',
     color:'#FA6A30',
     fontSize: 17
+  },
+  cardImageStyling: {
+    marginTop: 50,
+    paddingTop: 500,
+    alignSelf: 'center',
+    height: 80,
+    width: 300,
+    borderWidth: 1,
+    borderRadius: 70
+  },
+  cardDescription: {
+    fontWeight: 'bold',
+    marginTop: 10,
+    marginLeft: 10,
+    marginRight: 10,
+    alignSelf: 'center',
+    textAlign:'center',
+    color:'#FA6A30',
+    fontSize: 17
   }
-
 
 });
 

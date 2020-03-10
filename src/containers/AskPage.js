@@ -23,4 +23,9 @@ export default function AskPage({ navigation }) {
       />
     </View>
   );
+
+
+
+
+
 }
