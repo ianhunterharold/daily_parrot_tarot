@@ -19,13 +19,9 @@ export default function AskPage({ navigation }) {
       <Button
         color="#FA6A30"
         title="Ask"
-        onPress={() => navigation.navigate('Reading')}
+        onPress={() => navigation.navigate('Reading') }
       />
     </View>
   );
-
-
-
-
 
 }
