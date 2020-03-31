@@ -7,7 +7,7 @@ import Styles from '../style/style';
 
 export default function LandingPage({ navigation }) {
 
-// class LandingPage extends Component{
+
     return (
       <View>
         <Text style={Styles.landingPageWelcomeMessage} >
@@ -26,5 +26,3 @@ export default function LandingPage({ navigation }) {
       </View>
     );
   }
-
-// export default LandingPage;
