@@ -3,7 +3,6 @@ import { Component } from 'react';
 import { View, Text, Image, Dimensions } from 'react-native';
 import Styles from '../style/style';
 
-import cuckoo from '../img/cuckoo.png';
 import peacock from '../img/peacock.png';
 import plover from '../img/plover.png';
 import ostrich from '../img/ostrich.png'
@@ -16,7 +15,17 @@ class Card extends Component{
 
   randomlySelectABird = () => {
 
-              const CUCKOO= <><Image
+              // const OWL=<>
+              // <Image 
+              // source={// location }
+              // style={Styles.cardImageStyling}
+              // />
+              // <Text style={Styles.cardDescription}>
+              //   OWLL cuckoo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              // </Text>
+              // </>
+
+              const OSTRICH= <><Image
                 source={ostrich}
                 style={Styles.cardImageStyling}
               /><Text style ={Styles.cardDescription}>11111111 cuckoo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text></>
@@ -26,7 +35,7 @@ class Card extends Component{
                   style={Styles.cardImageStyling}
                 /><Text style ={Styles.cardDescription}>22222 cuckoo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text></>
 
-              const PLOVER =<><Image
+              const FLAMINGO =<><Image
                 source={flamingo} // just sourcing the ostrich to see what it looks like neck is cut off 
                 style={Styles.cardImageStyling}
               /><Text style ={Styles.cardDescription}>33333 cuckoo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text></>
@@ -34,24 +43,20 @@ class Card extends Component{
               const PENGUIN= <><Image
                 source={penguin}
                 style={Styles.cardImageStyling}
-              /><Text style ={Styles.cardDescription}>PENGUIN cuckoo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text></>
+              /><Text style ={Styles.cardDescription}>PENGUIN UPTODATE GOOD TO GO! MINUS TEXT cuckoo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text></>
               
 
-    let randomBirdsArray = [ CUCKOO, PLOVER, PEACOCK,PENGUIN ]
+    let randomBirdsArray = [ OSTRICH, FLAMINGO, PEACOCK, PENGUIN ]
     // randomly selects a bird from the array 
     let randomSelectionOfBird = randomBirdsArray[Math.floor(Math.random() * randomBirdsArray.length)] 
 
-    this.accompanyTextWithCorespondingBird(randomSelectionOfBird)
-    console.log(randomSelectionOfBird)
+    // this.accompanyTextWithCorespondingBird(randomSelectionOfBird)
     return randomSelectionOfBird
   }
 
-  accompanyTextWithCorespondingBird = (randomSelectionOfBird) => {
-    console.log(randomSelectionOfBird,"can we see the randomSelectionOfBird in here?")
-    
-    // match some identifier on the object and return the text
-
-  }
+  // accompanyTextWithCorespondingBird = (randomSelectionOfBird) => {
+  //   console.log(randomSelectionOfBird,"can we see the randomSelectionOfBird in here?")
+  // }
 
   render(){
     return(
