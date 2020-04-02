@@ -6,7 +6,6 @@ import { useState } from 'react'
 export default function AskPage({ navigation }) {
   
   const [textInput, setTextInput] = useState('')
-
   
   return (
     <View>
@@ -17,6 +16,7 @@ export default function AskPage({ navigation }) {
         source={require('../img/questionPageParrot.png')}
         style={Styles.questionPageImage}
       />
+
         <TextInput
           style = {Styles.askPageTextInputBox}
           value={textInput}
@@ -25,9 +25,11 @@ export default function AskPage({ navigation }) {
       <Button
         color="#FA6A30"
         title="Ask"
-        onPress={() => 
+        onPress={ () => {
+          navigation.navigate('Reading');
+          setTextInput(" ");
+        }}
           
-          navigation.navigate('Reading')}
       />
     </View>
   );
