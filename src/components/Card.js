@@ -16,6 +16,7 @@ import hummingbird from '../img/hummingbird.png';
 import turquoiseParrot from '../img/turquoiseParrot.png'
 
 class Card extends Component{
+  
 
   randomlySelectABird = () => {
 
