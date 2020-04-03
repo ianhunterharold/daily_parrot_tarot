@@ -18,6 +18,9 @@ import kingfisher from '../img/kingfisher.png';
 import oriole from '../img/oriole.png';
 import raven from '../img/raven.png';
 import birdOfParadiseOne from '../img/birdOfParadiseOne.png';
+import birdOfParadiseTwo from '../img/birdOfParadiseTwo.png';
+import birdOfParadiseThree from '../img/birdOfParadiseThree.png';
+import emu from '../img/emu.png'; 
 
 import turquoiseParrot from '../img/turquoiseParrot.png'
 
@@ -25,6 +28,36 @@ class Card extends Component{
   
 
   randomlySelectABird = () => {
+
+              const EMU=<>
+              <Image 
+              source={emu}
+              style={Styles.cardImageStyling}
+              />
+              <Text style={Styles.cardDescription}>
+              EMU 
+              </Text>
+              </> 
+
+              const BIRDOFPARADISETHREE=<>
+              <Image 
+              source={birdOfParadiseThree}
+              style={Styles.cardImageStyling}
+              />
+              <Text style={Styles.cardDescription}>
+                BIRD of paradise THREE ENERGY! 
+              </Text>
+              </> 
+
+              const BIRDOFPARADISETWO=<>
+              <Image 
+              source={birdOfParadiseTwo}
+              style={Styles.cardImageStyling}
+              />
+              <Text style={Styles.cardDescription}>
+                BIRD of paradise energy one! 
+              </Text>
+              </> 
 
               const BIRDOFPARADISEONE=<>
               <Image 
@@ -35,7 +68,7 @@ class Card extends Component{
                 BIRD of paradise energy one! 
               </Text>
               </> 
-
+              
               const RAVEN=<>
               <Image 
               source={raven}
@@ -165,8 +198,8 @@ class Card extends Component{
               /><Text style ={Styles.cardDescription}>PENGUIN UPTODATE GOOD TO GO! MINUS TEXT cuckoo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text></>
               
 
-    let randomBirdsArray = [  BIRDOFPARADISEONE  ]  
-    // HUMMINGBIRD, FLAMINGO, PEACOCK, PENGUIN, OWL, OSTRICH, HERON, PHEASANT, PEACOCK, VULTURE, MOLTRES, PUFFIN, GOOSE,KINGFISHER,ORIOLE,RAVEN
+    let randomBirdsArray = [ EMU ]  
+    // HUMMINGBIRD, FLAMINGO, PEACOCK, PENGUIN, OWL, OSTRICH, HERON, PHEASANT, PEACOCK, VULTURE, MOLTRES, PUFFIN, GOOSE,KINGFISHER,ORIOLE,RAVEN,BIRDOFPARADISETWO, BIRDOFPARADISEONE,BIRDOFPARADISETHREE
     // randomly selects a bird from the array 
     let randomSelectionOfBird = randomBirdsArray[Math.floor(Math.random() * randomBirdsArray.length)] 
     return randomSelectionOfBird
