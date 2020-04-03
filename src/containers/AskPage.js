@@ -27,9 +27,8 @@ export default function AskPage({ navigation }) {
         title="Ask"
         onPress={ () => {
           navigation.navigate('Reading');
-          setTextInput(" ");
-        }}
-          
+          setTextInput(' ');
+        }}  
       />
     </View>
   );

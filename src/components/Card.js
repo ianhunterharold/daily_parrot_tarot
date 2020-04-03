@@ -12,6 +12,12 @@ import pheasant from '../img/pheasant.png';
 import vulture from '../img/vulture.png';
 import moltres from '../img/moltres.png';
 import hummingbird from '../img/hummingbird.png';
+import puffin from '../img/puffin.png';
+import goose from '../img/goose.png';
+import kingfisher from '../img/kingfisher.png';
+import oriole from '../img/oriole.png';
+import raven from '../img/raven.png';
+import birdOfParadiseOne from '../img/birdOfParadiseOne.png';
 
 import turquoiseParrot from '../img/turquoiseParrot.png'
 
@@ -19,6 +25,66 @@ class Card extends Component{
   
 
   randomlySelectABird = () => {
+
+              const BIRDOFPARADISEONE=<>
+              <Image 
+              source={birdOfParadiseOne}
+              style={Styles.cardImageStyling}
+              />
+              <Text style={Styles.cardDescription}>
+                BIRD of paradise energy one! 
+              </Text>
+              </> 
+
+              const RAVEN=<>
+              <Image 
+              source={raven}
+              style={Styles.cardImageStyling}
+              />
+              <Text style={Styles.cardDescription}>
+                oriole energy yaaaas!
+              </Text>
+              </> 
+
+              const ORIOLE=<>
+              <Image 
+              source={oriole}
+              style={Styles.cardImageStyling}
+              />
+              <Text style={Styles.cardDescription}>
+                oriole energy yaaaas!
+              </Text>
+              </> 
+
+              const KINGFISHER=<>
+              <Image 
+              source={kingfisher}
+              style={Styles.cardImageStyling}
+              />
+              <Text style={Styles.cardDescription}>
+                King Fisher
+              </Text>
+              </> 
+              
+              const GOOSE=<>
+              <Image 
+              source={goose}
+              style={Styles.cardImageStyling}
+              />
+              <Text style={Styles.cardDescription}>
+                GOOSE BADASS
+              </Text>
+              </> 
+              
+              const PUFFIN=<>
+              <Image 
+              source={puffin}
+              style={Styles.cardImageStyling}
+              />
+              <Text style={Styles.cardDescription}>
+                PUFFIN BADASS
+              </Text>
+              </> 
 
               const HUMMINGBIRD=<>
               <Image 
@@ -99,7 +165,8 @@ class Card extends Component{
               /><Text style ={Styles.cardDescription}>PENGUIN UPTODATE GOOD TO GO! MINUS TEXT cuckoo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text></>
               
 
-    let randomBirdsArray = [ HUMMINGBIRD, FLAMINGO, PEACOCK, PENGUIN, OWL, OSTRICH, HERON, PHEASANT, PEACOCK, VULTURE, MOLTRES ]  
+    let randomBirdsArray = [  BIRDOFPARADISEONE  ]  
+    // HUMMINGBIRD, FLAMINGO, PEACOCK, PENGUIN, OWL, OSTRICH, HERON, PHEASANT, PEACOCK, VULTURE, MOLTRES, PUFFIN, GOOSE,KINGFISHER,ORIOLE,RAVEN
     // randomly selects a bird from the array 
     let randomSelectionOfBird = randomBirdsArray[Math.floor(Math.random() * randomBirdsArray.length)] 
     return randomSelectionOfBird
