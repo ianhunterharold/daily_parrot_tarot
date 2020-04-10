@@ -16,7 +16,7 @@ import puffin from '../img/puffin.png';
 import goose from '../img/goose.png';
 import kingfisher from '../img/kingfisher.png';
 import oriole from '../img/oriole.png';
-import raven from '../img/raven.png';
+import falcon from '../img/falcon.png';
 import birdOfParadiseOne from '../img/birdOfParadiseOne.png';
 import birdOfParadiseTwo from '../img/birdOfParadiseTwo.png';
 import birdOfParadiseThree from '../img/birdOfParadiseThree.png';
@@ -79,13 +79,13 @@ class Card extends Component{
               </Text>
               </> 
 
-              const RAVEN=<>
+              const FALCON=<>
               <Image 
-              source={raven}
+              source={falcon}
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                oriole energy yaaaas!
+                falcon energy
               </Text>
               </> 
 
@@ -208,8 +208,11 @@ class Card extends Component{
               /><Text style ={Styles.cardDescription}>PENGUIN UPTODATE GOOD TO GO! MINUS TEXT cuckoo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text></>
               
 
-    let randomBirdsArray = [ TURQUOISEPARROT ]  
-    // HUMMINGBIRD, FLAMINGO, PEACOCK, PENGUIN, OWL, OSTRICH, HERON, PHEASANT, PEACOCK, VULTURE, MOLTRES, PUFFIN, GOOSE,KINGFISHER,ORIOLE,RAVEN,BIRDOFPARADISETWO, BIRDOFPARADISEONE,BIRDOFPARADISETHREE,EMU,HUMMINGBIRD
+    let randomBirdsArray = [ FALCON ] 
+
+    // TURQUOISEPARROT, HUMMINGBIRD, FLAMINGO, PEACOCK, PENGUIN, OWL, OSTRICH, HERON, PHEASANT, PEACOCK, VULTURE, MOLTRES, , GOOSE,KINGFISHER,ORIOLE,,, ,EMU, PUFFIN, FALCON, BIRDOFPARADISEONE,BIRDOFPARADISETHREE, BIRDOFPARADISETWO
+
+    // TURQUOISEPARROT, HUMMINGBIRD, FLAMINGO, PEACOCK, PENGUIN, OWL, OSTRICH, HERON, PHEASANT, PEACOCK, VULTURE, MOLTRES, PUFFIN, GOOSE,KINGFISHER,ORIOLE,RAVEN,BIRDOFPARADISETWO, BIRDOFPARADISEONE,BIRDOFPARADISETHREE,EMU
     // randomly selects a bird from the array 
     let randomSelectionOfBird = randomBirdsArray[Math.floor(Math.random() * randomBirdsArray.length)] 
     return randomSelectionOfBird
