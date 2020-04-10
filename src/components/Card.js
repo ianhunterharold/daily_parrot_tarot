@@ -35,7 +35,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-              EMU 
+                Extremely expressive, feelings on your sleeves.
               </Text>
               </> 
 
@@ -45,7 +45,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-              EMU 
+                Curious Calm head in the sand 
               </Text>
               </> 
 
@@ -55,7 +55,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                BIRD of paradise THREE ENERGY! 
+                Flashy, fully bushy tailed.
               </Text>
               </> 
 
@@ -65,7 +65,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                BIRD of paradise energy one! 
+                Strutting your stuff work wise
               </Text>
               </> 
 
@@ -75,7 +75,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                BIRD of paradise energy one! 
+                Romance life taking off!
               </Text>
               </> 
 
@@ -85,7 +85,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                falcon energy
+                Stay vigilent, some upcoming shit is heading your way. Use your agile moves to dodge that shit.
               </Text>
               </> 
 
@@ -95,7 +95,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                oriole energy yaaaas!
+                Basic bitch, very basic. 
               </Text>
               </> 
 
@@ -105,7 +105,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                King Fisher
+                In need of some salmon or sushi in your social life. Go fish. Time to explore your options.
               </Text>
               </> 
               
@@ -115,7 +115,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                GOOSE BADASS
+                Watch out canadians are obsessed with goose products and you might end up as dinner or worse, fired!
               </Text>
               </> 
               
@@ -125,7 +125,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                PUFFIN BADASS
+                Rare, unique, focus on your individuality at this point. you know you are an endagered species, prune your feathers and let others know how valuable you are.
               </Text>
               </> 
 
@@ -183,36 +183,43 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                OWLL cuckoo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                reflection, full 180 degrees around you with your flexible neck. Alone time and self reflection.
               </Text>
               </>
 
               const OSTRICH= <><Image
                 source={ostrich}
                 style={Styles.cardImageStyling}
-              /><Text style ={Styles.cardDescription}>11111111 cuckoo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text></>
+              />
+              <Text style ={Styles.cardDescription}>
+                Use those powerful legs and jettison yourself into the future you are desiring. It's your time to put your solid feet to the ground and launch yourself into the hot summer day.  
+              </Text></>
               
                 const PEACOCK= <><Image
                   source={peacock}
                   style={Styles.cardImageStyling}
-                /><Text style ={Styles.cardDescription}>22222 cuckoo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text></>
+                /><Text style ={Styles.cardDescription}>
+                  Work on your image with yourself and others.
+                  </Text></>
 
               const FLAMINGO =<><Image
                 source={flamingo} // just sourcing the ostrich to see what it looks like neck is cut off 
                 style={Styles.cardImageStyling}
-              /><Text style ={Styles.cardDescription}>33333 cuckoo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text></>
+              /><Text style ={Styles.cardDescription}>
+                You are what you eat, make sure you are injesting the right things.both mentally, spirutually, and phsycially.
+                </Text></>
 
               const PENGUIN= <><Image
                 source={penguin}
                 style={Styles.cardImageStyling}
-              /><Text style ={Styles.cardDescription}>PENGUIN UPTODATE GOOD TO GO! MINUS TEXT cuckoo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text></>
+              /><Text style ={Styles.cardDescription}>
+                You can endure the harsh winters of the antartic, avoid being eating by seals and whales. Make sure your tough exterior still protjects your warm and soft undercoat. Your down is what those closest to you will know you for, not your gortex tripple wind protected exterior.
+                </Text></>
               
 
-    let randomBirdsArray = [ FALCON ] 
+    let randomBirdsArray = [ TURQUOISEPARROT,EMU, BIRDOFPARADISEONE,BIRDOFPARADISETWO,BIRDOFPARADISETHREE,FALCON,FLAMINGO,GOOSE,HERON,HUMMINGBIRD,KINGFISHER,MOLTRES,ORIOLE,OSTRICH,OWL,PEACOCK,PENGUIN, PHEASANT,PUFFIN,VULTURE ] 
 
-    // TURQUOISEPARROT, HUMMINGBIRD, FLAMINGO, PEACOCK, PENGUIN, OWL, OSTRICH, HERON, PHEASANT, PEACOCK, VULTURE, MOLTRES, , GOOSE,KINGFISHER,ORIOLE,,, ,EMU, PUFFIN, FALCON, BIRDOFPARADISEONE,BIRDOFPARADISETHREE, BIRDOFPARADISETWO
 
-    // TURQUOISEPARROT, HUMMINGBIRD, FLAMINGO, PEACOCK, PENGUIN, OWL, OSTRICH, HERON, PHEASANT, PEACOCK, VULTURE, MOLTRES, PUFFIN, GOOSE,KINGFISHER,ORIOLE,RAVEN,BIRDOFPARADISETWO, BIRDOFPARADISEONE,BIRDOFPARADISETHREE,EMU
     // randomly selects a bird from the array 
     let randomSelectionOfBird = randomBirdsArray[Math.floor(Math.random() * randomBirdsArray.length)] 
     return randomSelectionOfBird
