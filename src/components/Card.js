@@ -1,6 +1,6 @@
 import React from 'react';
 import { Component } from 'react';
-import { View, Text, Image, Dimensions } from 'react-native';
+import { View, Text, Image } from 'react-native';
 import Styles from '../style/style';
 import owl from '../img/owl.png';
 import peacock from '../img/peacock.png';
@@ -35,7 +35,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Extremely expressive, feelings on your sleeves.
+                You pulled the turqoise parrot today because you are currently wearing your emotions on your sleeve. No one wants to be a sloppy mess. Take a second to compose your self, take some deep breaths and fluff your feathers. Everyone knows you are sicking, why don't you believe it? 
               </Text>
               </> 
 
@@ -45,7 +45,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Curious Calm head in the sand 
+                You have called upon the emu today because you are playing it cool. You have the vision that your long neck grants you to see far beyond. Keep it that way. Ask for emu energy to keep you calm, you got this girl.  
               </Text>
               </> 
 
@@ -55,7 +55,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Flashy, fully bushy tailed.
+                Bird of paradizzze, wowza. Can you believe? You are a diva. Call upon the overwelming energy of the pulmage to help you out. There's a diva within each of us; don't deny her the spotlight. It's your time to Robyn up the situation and dance by yo-self. 
               </Text>
               </> 
 
@@ -65,7 +65,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Strutting your stuff work wise
+                THE WORK bird of paradise. In your professional endevours, someone is on FYAIIRRR. Now is the time to strategicially ask for a raise, push for the promotion and place yourself perfectly poised for that next LEVEL UP! Bad ass boss energy here. 
               </Text>
               </> 
 
@@ -75,7 +75,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Romance life taking off!
+                Bird of paradise squats in your love life. Whether romantically inclined, or not, your love sphere is being activated. You know that guy you have been catching glances at on the flight to your clients office? Well it's time to rub elbows, ask their name and roll the dice of gambling and love. Do it, you know you want to. 
               </Text>
               </> 
 
@@ -85,7 +85,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Stay vigilent, some upcoming shit is heading your way. Use your agile moves to dodge that shit.
+                Stay vigilent, some upcoming shit is heading your way. Use your agile moves to dodge that clusterf*ck. You have sharp claws, a razor edge beak - don't be too eager to engage. Use your falcon powers to gracefully gtfo. Only engage if it's life or death drop. 
               </Text>
               </> 
 
@@ -95,7 +95,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Basic bitch, very basic. 
+                Is' your turn to be a basic bitch. Yes, you. Yes, basic. Basic as in sbux pumpkin spice latte, uggs and sweater weather blankets. It's ok. The overlighting conciousness of the basic bitch is healing if you let it. So let it. 
               </Text>
               </> 
 
@@ -105,7 +105,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                In need of some salmon or sushi in your social life. Go fish. Time to explore your options.
+                You are in major need of some salmon or sushi in your social life. Go fish. Time to explore your options. Maybe it's something taboo? Like exploring your non-preferred self proclaimed sexual, gendered, or otherwise identities. Let your perverbial hair flow, 'cause cover gurl, you're worth it. Maybe she was born with it, maybe it's.. mable leaf...
               </Text>
               </> 
               
@@ -115,7 +115,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Watch out canadians are obsessed with goose products and you might end up as dinner or worse, fired!
+                Watch out, canadians are obsessed with goose products and you might end up as dinner or worse, fired! Goose enegry tells you that you in danger gurl! Hike your keys, hide your wallet, hide your family 'cuase their's a fire. Ain't nobody got time for dat.. 
               </Text>
               </> 
               
@@ -125,7 +125,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Rare, unique, focus on your individuality at this point. you know you are an endagered species, prune your feathers and let others know how valuable you are.
+                Rare, unique, focus in on your individuality. You know you are an endagered species, prune your feathers and let others know how valuable you are. Cereal boxes can't even attempt to capture your unique value propisition you bring to the table. Time to ruffle feathers. 
               </Text>
               </> 
 
@@ -182,8 +182,8 @@ class Card extends Component{
               source={owl}
               style={Styles.cardImageStyling}
               />
-              <Text style={Styles.cardDescription}>
-                reflection, full 180 degrees around you with your flexible neck. Alone time and self reflection.
+              <Text style={Styles.cardDescription}>  
+                Owl energy is ancient reflection. You have a full 180 degrees around you with your flexible neck. Alone time and self reflection, but seriously. 
               </Text>
               </>
 
