@@ -2,6 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 import { View, Text, Image } from 'react-native';
 import Styles from '../style/style';
+
 import owl from '../img/owl.png';
 import peacock from '../img/peacock.png';
 import ostrich from '../img/ostrich.png';
