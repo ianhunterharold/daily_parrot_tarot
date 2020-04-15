@@ -9,7 +9,9 @@ export default function LandingPage({ navigation }) {
     return (
       <View>
         <Text style={Styles.landingPageWelcomeMessage} >
-          Welcome to your daily bird reading! {'\n'}
+          Welcome to your daily bird reading! 
+          {'\n'}
+          {'\n'}
           Venture beyond and ask what is on your mind.
         </Text>
         <TouchableOpacity

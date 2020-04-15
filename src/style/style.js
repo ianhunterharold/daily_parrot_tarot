@@ -26,7 +26,7 @@ const Styles = StyleSheet.create({
   },
   LandingPageImageStyle: {
     //not fulling understadning css that flexes with different containers YET. I know that my styling is not build for flexiability yet either. will update to reflect multiple devices.
-    marginTop: 50,
+    marginTop: 30,
     marginBottom: 80,
     paddingTop: 500,
     alignSelf: 'center',
@@ -41,7 +41,7 @@ const Styles = StyleSheet.create({
     alignSelf: 'center',
     textAlign:'center',
     color:'#FA6A30',
-    fontSize: 17
+    fontSize: 15
   },
   questionPageImage: {
     marginTop: 50,
@@ -96,7 +96,7 @@ const Styles = StyleSheet.create({
     alignSelf: 'center',
     textAlign:'center',
     color:'#FA6A30',
-    fontSize: 17
+    fontSize: 15
   },
   imageCredt: {
     alignSelf: 'center',
