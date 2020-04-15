@@ -88,7 +88,39 @@ const Styles = StyleSheet.create({
     textAlign:'center',
     color:'#FA6A30',
     fontSize: 17
-  }
+  },
+  link: {
+    fontWeight: 'bold',
+    marginTop: 50,
+    marginBottom: 20,
+    alignSelf: 'center',
+    textAlign:'center',
+    color:'#FA6A30',
+    fontSize: 17
+  },
+  imageCredt: {
+    alignSelf: 'center',
+    textAlign:'center',
+    color:'#FA6A30',
+    fontSize: 17
+  },
+  rateMe: {
+    fontWeight: 'bold',
+    alignSelf: 'center',
+    textAlign:'center',
+    color:'#FA6A30',
+    fontSize: 17
+  },
+  infoPagePicture: {
+    marginTop: 20,
+    marginBottom: 20,
+    paddingTop: 500,
+    alignSelf: 'center',
+    height: 100,
+    width: 300,
+    borderWidth: 1,
+    borderRadius: 70
+  },
 
 });
 
