@@ -29,5 +29,5 @@ npx react-native run-ios
  -- on the out list
  -- npm install --save react-router-native
  npm install --save react-native-elements 
-Fait avec amour de Montréal <3
+  Fait avec amour de Montréal <3
 
