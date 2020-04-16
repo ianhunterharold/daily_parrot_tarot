@@ -68,7 +68,7 @@ const Styles = StyleSheet.create({
     alignSelf: 'center',
     textAlign:'center',
     color:'#FA6A30',
-    fontSize: 17
+    fontSize: 15
   },
   cardImageStyling: {
     marginTop: 50,
@@ -87,7 +87,7 @@ const Styles = StyleSheet.create({
     alignSelf: 'center',
     textAlign:'center',
     color:'#FA6A30',
-    fontSize: 17
+    fontSize: 15
   },
   link: {
     fontWeight: 'bold',
