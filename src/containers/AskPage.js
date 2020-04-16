@@ -16,7 +16,6 @@ export default function AskPage({ navigation }) {
         source={require('../img/questionPageParrot.png')}
         style={Styles.questionPageImage}
       />
-
         <TextInput
           style = {Styles.askPageTextInputBox}
           value={textInput}

@@ -1,7 +1,7 @@
 import { StyleSheet, Dimensions } from 'react-native';
 
-const {width: WIDTH, height: HEIGHT} = Dimensions.get('window')
-// haven't used this yet.
+// const {width: WIDTH, height: HEIGHT} = Dimensions.get('window')
+
 
 const Styles = StyleSheet.create({
 
@@ -25,7 +25,6 @@ const Styles = StyleSheet.create({
     alignContent: "center"
   },
   LandingPageImageStyle: {
-    //not fulling understadning css that flexes with different containers YET. I know that my styling is not build for flexiability yet either. will update to reflect multiple devices.
     marginTop: 30,
     marginBottom: 80,
     paddingTop: 500,
@@ -121,7 +120,6 @@ const Styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 70
   },
-
 });
 
 export default Styles;

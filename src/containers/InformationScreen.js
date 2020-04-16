@@ -7,10 +7,10 @@ const pheasant = require('../img/pheasant.png');
 export default function InformationScreen({navigation}){
   return (
     <>
-     <Text 
+      <Text 
         onPress={ ()=> Linking.openURL('https://www.linkedin.com/in/ianhunterharold') } 
         style={Styles.link}>
-        Created by Ian Hunter Harold
+        ℹ️ Created by Ian Hunter Harold 
       </Text>
       <Text 
         onPress={ ()=> Linking.openURL('https://apps.apple.com/us/developer/secure-speak-llc/id1169875966')}
@@ -26,7 +26,7 @@ export default function InformationScreen({navigation}){
       <Text 
         onPress= { () => Linking.openURL('https://www.freepik.com/free-photos-vectors/Watercolor')} 
         style={Styles.imageCredt}>
-        Images provided by freepik.com
+        ℹ️ Images provided by freepik.com
       </Text>
   </>
   )
