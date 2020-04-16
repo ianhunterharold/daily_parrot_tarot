@@ -3,6 +3,7 @@ import { Component } from 'react';
 import { View, Text, Image } from 'react-native';
 import Styles from '../style/style';
 
+
 import owl from '../img/owl.png';
 import peacock from '../img/peacock.png';
 import ostrich from '../img/ostrich.png';
@@ -215,7 +216,7 @@ class Card extends Component{
   render(){
     return(
       <>
-      <View>
+      <View style={Styles.exteriorContainer}>
       {this.randomlySelectABird()}
       </View>
       </>

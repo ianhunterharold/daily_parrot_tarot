@@ -1,14 +1,15 @@
 import React from 'react';
 import { Image, Button, View, Text, TextInput } from 'react-native';
 import Styles from '../style/style';
-import { useState } from 'react'
+import { useState } from 'react';
+
 
 export default function AskPage({ navigation }) {
   
   const [textInput, setTextInput] = useState('')
   
   return (
-    <View>
+    <View style={Styles.exteriorContainer}>
       <Text style={Styles.questionPageMessage}>
         It's the question that drives us... 
       </Text>

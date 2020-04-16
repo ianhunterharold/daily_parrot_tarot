@@ -2,11 +2,13 @@ import React from 'react';
 import { Text, View, StyleSheet, Linking, Image} from 'react-native';
 import Styles from '../style/style';
 
+
 const pheasant = require('../img/pheasant.png');
 
 export default function InformationScreen({navigation}){
   return (
     <>
+      <View style={Styles.exteriorContainer}>
       <Text 
         onPress={ ()=> Linking.openURL('https://www.linkedin.com/in/ianhunterharold') } 
         style={Styles.link}>
@@ -28,6 +30,7 @@ export default function InformationScreen({navigation}){
         style={Styles.imageCredt}>
         ℹ️ Images provided by freepik.com
       </Text>
+      </View>
   </>
   )
 }

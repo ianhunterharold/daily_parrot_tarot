@@ -4,10 +4,11 @@ import Styles from '../style/style';
 
 
 
+
 export default function LandingPage({ navigation }) {
   
     return (
-      <View>
+      <View style={Styles.exteriorContainer}>
         <Text style={Styles.landingPageWelcomeMessage} >
           Welcome to your daily bird reading! 
           {'\n'}
