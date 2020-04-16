@@ -18,6 +18,7 @@ git clone: https://github.com/ianhunterharold/daily_parrot_tarot
 cd daily_parrot_tarot
 npm install --save react-navigation
 npm install --save react-native-gesture-handler
+npm install react-native-responsive-screen --save 
 npm install
 cd ios/
 pod install
