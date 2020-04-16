@@ -36,7 +36,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                You pulled the turqoise parrot today because you are currently wearing your emotions on your sleeve. No one wants to be a sloppy mess. Take a second to compose your self, take some deep breaths and fluff your feathers. Everyone knows you are sicking, why don't you believe it? 
+                You pulled the turquoise parrot today because you are currently wearing your emotions on your sleeve. No one wants to be a sloppy mess. Take a second to compose yourself, take some deep breaths and fluff your feathers.Everyone knows you are sickening, why don't you believe it?
               </Text>
               </> 
 
@@ -46,7 +46,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                You have called upon the emu today because you are playing it cool. You have the vision that your long neck grants you to see far beyond. Keep it that way. Ask for emu energy to keep you calm, you got this girl.  
+                You have called upon the emu today because you are playing it cool. You have the vision that your long neck grants you to see far beyond. Keep it that way. Ask for emu energy to keep you calm, you got this girl. 
               </Text>
               </> 
 
@@ -56,7 +56,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Bird of paradizzze, wowza. Can you believe? You are a diva. Call upon the overwelming energy of the pulmage to help you out. There's a diva within each of us; don't deny her the spotlight. It's your time to Robyn up the situation and dance by yo-self. 
+                Bird of paradise, wowza. Can you believe? You are a diva. Call upon the overwhelming energy of the plumage to help you out. There's a diva within each of us; don't deny her the spotlight. It's your time to Robyn up the situation and dance by yo-self.
               </Text>
               </> 
 
@@ -66,7 +66,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                THE WORK bird of paradise. In your professional endevours, someone is on FYAIIRRR. Now is the time to strategicially ask for a raise, push for the promotion and place yourself perfectly poised for that next LEVEL UP! Bad ass boss energy here. 
+                THE WORK bird of paradise. In your professional endeavors, someone is on FIRE. Now is the time to strategically ask for a raise, push for the promotion and place yourself perfectly poised for that next LEVEL UP! Bad ass boss energy here.
               </Text>
               </> 
 
@@ -76,7 +76,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Bird of paradise squats in your love life. Whether romantically inclined, or not, your love sphere is being activated. You know that guy you have been catching glances at on the flight to your clients office? Well it's time to rub elbows, ask their name and roll the dice of gambling and love. Do it, you know you want to. 
+                Romantic bird of paradise. Whether romantically inclined, or not, your love sphere is being activated. You know that guy you have been catching glances at on this flight? Well it's time to rub elbows, ask their name and roll the dice. Do it, you know you want to. 
               </Text>
               </> 
 
@@ -86,7 +86,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Stay vigilent, some upcoming shit is heading your way. Use your agile moves to dodge that clusterf*ck. You have sharp claws, a razor edge beak - don't be too eager to engage. Use your falcon powers to gracefully gtfo. Only engage if it's life or death drop. 
+                Stay vigilant, some upcoming shit is heading your way. Use your agile moves to dodge that clusterf*ck. You have sharp claws, a razor edge beak - don't be too eager to engage. Use your falcon powers to gracefully gtfo. Only engage if it's life or death drop.
               </Text>
               </> 
 
@@ -96,7 +96,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Is' your turn to be a basic bitch. Yes, you. Yes, basic. Basic as in sbux pumpkin spice latte, uggs and sweater weather blankets. It's ok. The overlighting conciousness of the basic bitch is healing if you let it. So let it. 
+                It's your turn to be a basic bitch. Yes, you. Yes, basic. Basic as in pumpkin spice latte, uggs and sweater weather blankets. It's ok. The overlighting consciousness of the basic bitch is healing if you let it. So let it.
               </Text>
               </> 
 
@@ -106,7 +106,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                You are in major need of some salmon or sushi in your social life. Go fish. Time to explore your options. Maybe it's something taboo? Like exploring your non-preferred self proclaimed sexual, gendered, or otherwise identities. Let your perverbial hair flow, 'cause cover gurl, you're worth it. Maybe she was born with it, maybe it's.. mable leaf...
+                You are in major need of some salmon or sushi in your social life. Go fish. Time to explore your options. Maybe it's something taboo? Like exploring your non-preferred self proclaimed sexual, gendered, or otherwise identities. Let your proverbial hair flow, 'cause covergirl, you're worth it. Maybe she was born with it, maybe it's.. maple leaf...
               </Text>
               </> 
               
@@ -116,7 +116,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Watch out, canadians are obsessed with goose products and you might end up as dinner or worse, fired! Goose enegry tells you that you in danger gurl! Hike your keys, hide your wallet, hide your family 'cuase their's a fire. Ain't nobody got time for dat.. 
+                Watch out, canadians are obsessed with goose products and you might end up as dinner or worse, fired! Goose energy tells you that you in danger gurl! Hike your keys, hide your wallet, hide your family 'cause there's a fire. Ain't nobody got time for that..
               </Text>
               </> 
               
@@ -126,7 +126,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Rare, unique, focus in on your individuality. You know you are an endagered species, prune your feathers and let others know how valuable you are. Cereal boxes can't even attempt to capture your unique value propisition you bring to the table. Time to ruffle feathers. 
+                Rare, and unique, focus on your individuality. You know you are an endangered species, prune your feathers and let others know how valuable you truly are; Time to ruffle their feathers.
               </Text>
               </> 
 
@@ -136,7 +136,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                The hummingbird card has presented itself to you today because right now in life, you are liberating yourself from the heavy chains of the past and starting to lift into the light of joy.The hummingbird is a symbol that you are succeeding! Your time of suffering is drawing to a close and that you can expect magic and wonderment to fill your days. 
+                The hummingbird is a symbol that you are succeeding! Keep beating those wings because it's working! All of the effort you have put into this theme is finally paying off. Time to cash in on your investment. Cha ching.
               </Text>
               </> 
               const MOLTRES=<>
@@ -145,7 +145,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                The phoenix is a sign that you are needing their energy to rise up out of the calamity and turn something into a personal triumph. You need to accept that something is about to change form, and the phoenix is alerting you to this. Remember that you, as a soul, can never be destroyed; the phsical form of things changes, but the spirit behind all things is eternal. The essential 'you' cannot be changed. Rise from the ashes and do what needs to be done! 
+                The phoenix energy is calling you to rise from your ashes. You need to accept that something is about to change form, and the phoenix is alerting you to this. Do what needs to be done to complete the transformation.
               </Text>
               </>        
               const VULTURE=<>
@@ -154,7 +154,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Vulture energy offers us a chance to face and forgive a part of our nature that we find hard to accept. We all have our shadow side. White it remains hidden and unexamined, it exerts enormous power, causing us to do things we hate in ourselves.Once we have owned these unredeemed aspects and face them conciously, their power can become constructive rather than destructive.
+                Vulture energy offers us a chance to face and forgive a part of our nature that we find hard to accept. We all have our shadow side. While it remains hidden and unexamined, it exerts enormous power, causing us to do things we hate in ourselves.Once we have owned these unredeemed aspects and face them consciously, their power can become constructive rather than destructive.
               </Text>
               </>        
     
@@ -164,7 +164,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Pheasant energy indicates that we are connecting with our own power and authority. The shadow aspect of our nature has been tamed, it no longer undermines our prgression towards a full connection with our source of power. Use the energy of the Pheasant to fully actualize your power. Power isn't evil, but tends to lean in that direction. Use your new found power responsibly.
+                Pheasant energy indicates that we are connecting with our own power and authority. The shadow aspect of our nature has been tamed, it no longer undermines our progression towards a full connection with our source of power. Use the energy of the Pheasant to fully actualize your power. Power isn't evil, but tends to lean in that direction. Use your new found power responsibly.
               </Text>
               </>
 
@@ -174,7 +174,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>
-                Selecting the Heron today, is a call to purify yourself. Maybe you are being prepared for a major shift in consciousness, or maybe you have allowed the accretion of too much old energy to build up in your system. It may signal a look at your diet; perhaps a detoxifying regime is needed. Harness the power of the Heron to clense thyself. 
+              Selecting the Heron today, is a call to purify yourself. Maybe you are being prepared for a major shift in consciousness, or maybe you have allowed the accretion of too much old energy to build up in your system. It may signal a look at your diet; perhaps a detoxifying regime is needed. Harness the power of the Heron to cleanse thyself.
               </Text>
               </>
 
@@ -184,7 +184,7 @@ class Card extends Component{
               style={Styles.cardImageStyling}
               />
               <Text style={Styles.cardDescription}>  
-                Owl energy is ancient reflection. You have a full 180 degrees around you with your flexible neck. Alone time and self reflection, but seriously. 
+                Owl energy is ancient reflection. You have a full 180 degrees to look around you. Thanks neck. Take some alone time and self reflection, but seriously. 
               </Text>
               </>
 
@@ -193,29 +193,32 @@ class Card extends Component{
                 style={Styles.cardImageStyling}
               />
               <Text style ={Styles.cardDescription}>
-                Use those powerful legs and jettison yourself into the future you are desiring. It's your time to put your solid feet to the ground and launch yourself into the hot summer day.  
+                Use those powerful legs and jettison yourself into the future you are desiring. It's your time to put your solid feet to the ground and launch yourself into the hot summer day. 
               </Text></>
               
                 const PEACOCK= <><Image
                   source={peacock}
                   style={Styles.cardImageStyling}
-                /><Text style ={Styles.cardDescription}>
-                  Work on your image with yourself and others.
+                />
+                <Text style ={Styles.cardDescription}>
+                    Work on your image with yourself and others. Peacock energy is all about perception. It is impossible to influence everyone's thoughts of you. Only control the ones you know would make a positive impact. Perception is reality, but don't take it too seriously.
                   </Text></>
 
-              const FLAMINGO =<><Image
-                source={flamingo} // just sourcing the ostrich to see what it looks like neck is cut off 
+              const FLAMINGO = <><Image
+                source={flamingo} 
                 style={Styles.cardImageStyling}
-              /><Text style ={Styles.cardDescription}>
-                You are what you eat, make sure you are injesting the right things.both mentally, spirutually, and phsycially.
-                </Text></>
+              />
+              <Text style ={Styles.cardDescription}>
+                You are what you eat, make sure you are ingesting the right things. Both mentally, spiritually, and physically. Remember that the Flamingo is pink because of the canthaxanthin it consumes through the shrimp and blue green algae. If we are what we eat, I'm a loaf of bread and 4 hard boiled eggs. Time to be more conscious of what we consume.
+              </Text></>
 
               const PENGUIN= <><Image
                 source={penguin}
                 style={Styles.cardImageStyling}
-              /><Text style ={Styles.cardDescription}>
-                You can endure the harsh winters of the antartic, avoid being eating by seals and whales. Make sure your tough exterior still protjects your warm and soft undercoat. Your down is what those closest to you will know you for, not your gortex tripple wind protected exterior.
-                </Text></>
+              />
+              <Text style ={Styles.cardDescription}>
+                You can endure the harsh winters of the antarctic, avoid being eaten by seals and whales. Make sure your tough exterior still protects your warm and soft undercoat. Your down is what those closest to you will know you for, not your gortex triple wind protected exterior.
+              </Text></>
               
 
     let randomBirdsArray = [ TURQUOISEPARROT,EMU, BIRDOFPARADISEONE,BIRDOFPARADISETWO,BIRDOFPARADISETHREE,FALCON,FLAMINGO,GOOSE,HERON,HUMMINGBIRD,KINGFISHER,MOLTRES,ORIOLE,OSTRICH,OWL,PEACOCK,PENGUIN, PHEASANT,PUFFIN,VULTURE ] 
