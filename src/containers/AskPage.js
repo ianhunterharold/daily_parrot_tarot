@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, Button, View, Text, TextInput } from 'react-native';
 import Styles from '../style/style';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Card } from 'react-native-elements';
 
 
@@ -11,6 +11,7 @@ export default function AskPage({ navigation }) {
   
   return (
         <View style ={Styles.outerExterior}>
+          {console.log('textinput',textInput)}
         <View style={Styles.exteriorContainer} >
       <Card style={Styles.Card}>
       <View>
@@ -32,6 +33,7 @@ export default function AskPage({ navigation }) {
           title="Ask"
           onPress={ () => {
             navigation.navigate('Reading');
+            console.log(textInput,"on push")
             setTextInput(' ');
           }}  
         />

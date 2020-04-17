@@ -67,6 +67,7 @@ const Styles = StyleSheet.create({
   askPageTextInputBox: {
     height: 50, 
     width: 270, 
+    textShadowColor: 'black',
     borderColor: 'gray', 
     borderWidth: 3,
     alignSelf: 'center',
