@@ -216,8 +216,10 @@ class Card extends Component{
   render(){
     return(
       <>
-      <View style={Styles.exteriorContainer}>
-      {this.randomlySelectABird()}
+      <View style={Styles.mostExterior}>
+        <View style={Styles.exteriorContainer}>
+        {this.randomlySelectABird()}
+        </View>
       </View>
       </>
     )

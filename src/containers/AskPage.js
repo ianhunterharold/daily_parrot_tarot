@@ -9,27 +9,29 @@ export default function AskPage({ navigation }) {
   const [textInput, setTextInput] = useState('')
   
   return (
-    <View style={Styles.exteriorContainer}>
-      <Text style={Styles.questionPageMessage}>
-        It's the question that drives us... 
-      </Text>
-      <Image
-        source={require('../img/questionPageParrot.png')}
-        style={Styles.questionPageImage}
-      />
-        <TextInput
-          style = {Styles.askPageTextInputBox}
-          value={textInput}
-          onChange={(e) => setTextInput(e.target.value)}
+    <View style={Styles.mostExterior}>
+      <View style={Styles.exteriorContainer}>
+        <Text style={Styles.questionPageMessage}>
+          It's the question that drives us... 
+        </Text>
+        <Image
+          source={require('../img/questionPageParrot.png')}
+          style={Styles.questionPageImage}
         />
-      <Button
-        color="#FA6A30"
-        title="Ask"
-        onPress={ () => {
-          navigation.navigate('Reading');
-          setTextInput(' ');
-        }}  
-      />
+          <TextInput
+            style = {Styles.askPageTextInputBox}
+            value={textInput}
+            onChange={(e) => setTextInput(e.target.value)}
+          />
+        <Button
+          color="#FA6A30"
+          title="Ask"
+          onPress={ () => {
+            navigation.navigate('Reading');
+            setTextInput(' ');
+          }}  
+        />
+      </View>
     </View>
   );
 }

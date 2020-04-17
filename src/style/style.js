@@ -5,9 +5,11 @@ import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-nativ
 
 
 const Styles = StyleSheet.create({
+  mostExterior:{
+    flex:1
+  },
   exteriorContainer : {
     alignSelf: 'center',
-    flex:1,
     height: hp('100%'),
     width: wp('90%')
   },
