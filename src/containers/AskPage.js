@@ -18,15 +18,15 @@ export default function AskPage({ navigation }) {
         <Text style={Styles.questionPageMessage}>
           It's the question that drives us... 
         </Text>
-        <Image
-          source={require('../img/questionPageParrot.png')}
-          style={Styles.CardImage}
-        />
-          <TextInput
+        <TextInput
             style = {Styles.askPageTextInputBox}
             value={textInput}
             onChange={(e) => setTextInput(e.target.value)}
           />
+        <Image
+          source={require('../img/questionPageParrot.png')}
+          style={Styles.CardImage}
+        />
         <Button
           color="#FA6A30"
           title="Ask"
