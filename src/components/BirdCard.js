@@ -218,12 +218,14 @@ class BirdCard extends Component{
   render(){
     return(
       <>
-        <View>
+        <View style ={Styles.outerExterior}>
+        <View style={Styles.exteriorContainer} >
         <Card style={Styles.Card}>
           <View>
             {this.randomlySelectABird()}
           </View>
         </Card>  
+        </View>
         </View>
       </>
     )

@@ -17,7 +17,7 @@ const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <View style={Styles.mostExterior}>
+    <View style ={Styles.outerExterior}>
     <View style={Styles.exteriorContainer} >
     <NavigationContainer>
       <Stack.Navigator  initialRouteName="Daily Tarrot Parrot">

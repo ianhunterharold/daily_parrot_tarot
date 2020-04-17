@@ -7,9 +7,9 @@ import { Card } from 'react-native-elements';
 export default function LandingPage({ navigation }) {
   
     return (
-      <View>
+      <View style ={Styles.outerrExterior}>
+        <View style={Styles.exteriorContainer} >
         <Card style={Styles.Card}>
-         {/* style={Styles.mostExterior} */}
         <View >
         {/* style={Styles.exteriorContainer}  */}
           <Text style={Styles.landingPageWelcomeMessage} >
@@ -35,6 +35,7 @@ export default function LandingPage({ navigation }) {
           />
         </View>
         </Card> 
+        </View>
       </View>
       
     );

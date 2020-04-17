@@ -9,10 +9,10 @@ const pheasant = require('../img/pheasant.png');
 export default function InformationScreen({navigation}){
   return (
     <>
-      <View style={Styles.mostExterior}>
+    <View style ={Styles.outerExterior}>
+        <View style={Styles.exteriorContainer} >
         <Card>
         <View >
-        {/* style={Styles.exteriorContainer} */}
           <Text 
             onPress={ ()=> Linking.openURL('https://www.linkedin.com/in/ianhunterharold') } 
             style={Styles.link}>
@@ -37,6 +37,7 @@ export default function InformationScreen({navigation}){
         </View>
         </Card>
       </View>
+    </View>
     </>
   )
 }

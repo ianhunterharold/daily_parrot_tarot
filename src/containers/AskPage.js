@@ -10,7 +10,8 @@ export default function AskPage({ navigation }) {
   const [textInput, setTextInput] = useState('')
   
   return (
-    <View style={Styles.mostExterior}>
+        <View style ={Styles.outerExterior}>
+        <View style={Styles.exteriorContainer} >
       <Card style={Styles.Card}>
       <View>
       {/* style={Styles.exteriorContainer} */}
@@ -36,6 +37,7 @@ export default function AskPage({ navigation }) {
         />
       </View>
       </Card>
+    </View>
     </View>
   );
 }

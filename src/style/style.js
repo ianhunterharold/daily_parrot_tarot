@@ -2,7 +2,7 @@ import { StyleSheet, Dimensions } from 'react-native';
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
 const Styles = StyleSheet.create({
-  mostExterior:{
+  outerExterior:{
     flex:1
   },
   exteriorContainer : {
@@ -14,15 +14,17 @@ const Styles = StyleSheet.create({
     borderWidth: 1,
   },
   Card: {
-    height: hp('90%'),
+    height: hp('100%'),
     width: wp('100%'),
+    position:'relative'
   },
   CardImage: {
     borderWidth: 1,
     borderRadius: 70,
     height: hp('57%'),
     width: wp('70%'),
-    alignSelf: 'center'
+    alignSelf: 'center',
+    position:'relative'
   },
   LandingPageContainer: {
 		justifyContent: 'center',
