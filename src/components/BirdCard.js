@@ -33,7 +33,7 @@ class BirdCard extends Component{
   
               const TURQUOISEPARROT=<><Image 
                 source={turquoiseParrot}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style={Styles.cardDescription}>
                 You pulled the turquoise parrot today because you are currently wearing your emotions on your sleeve. No one wants to be a sloppy mess. Take a second to compose yourself, take some deep breaths and fluff your feathers.Everyone knows you are sickening, why don't you believe it?
@@ -42,7 +42,7 @@ class BirdCard extends Component{
 
               const EMU=<><Image 
                 source={emu}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style={Styles.cardDescription}>
                 You have called upon the emu today because you are playing it cool. You have the vision that your long neck grants you to see far beyond. Keep it that way. Ask for emu energy to keep you calm, you got this girl. 
@@ -51,7 +51,7 @@ class BirdCard extends Component{
 
               const BIRDOFPARADISETHREE=<><Image 
                 source={birdOfParadiseThree}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style={Styles.cardDescription}>
                 Bird of paradise, wowza. Can you believe? You are a diva. Call upon the overwhelming energy of the plumage to help you out. There's a diva within each of us; don't deny her the spotlight. It's your time to Robyn up the situation and dance by yo-self.
@@ -60,7 +60,7 @@ class BirdCard extends Component{
 
               const BIRDOFPARADISETWO=<><Image 
                 source={birdOfParadiseTwo}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style={Styles.cardDescription}>
                 THE WORK bird of paradise. In your professional endeavors, someone is on FIRE. Now is the time to strategically ask for a raise, push for the promotion and place yourself perfectly poised for that next LEVEL UP! Bad ass boss energy here.
@@ -69,7 +69,7 @@ class BirdCard extends Component{
 
               const BIRDOFPARADISEONE=<><Image 
                 source={birdOfParadiseOne}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style={Styles.cardDescription}>
                 Romantic bird of paradise. Whether romantically inclined, or not, your love sphere is being activated. You know that guy you have been catching glances at on this flight? Well it's time to rub elbows, ask their name and roll the dice. Do it, you know you want to. 
@@ -78,7 +78,7 @@ class BirdCard extends Component{
 
               const FALCON=<><Image 
                 source={falcon}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style={Styles.cardDescription}>
                 Stay vigilant, some upcoming shit is heading your way. Use your agile moves to dodge that clusterf*ck. You have sharp claws, a razor edge beak - don't be too eager to engage. Use your falcon powers to gracefully gtfo. Only engage if it's life or death drop.
@@ -87,7 +87,7 @@ class BirdCard extends Component{
 
               const ORIOLE=<><Image 
                 source={oriole}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style={Styles.cardDescription}>
                 It's your turn to be a basic bitch. Yes, you. Yes, basic. Basic as in pumpkin spice latte, uggs and sweater weather blankets. It's ok. The overlighting consciousness of the basic bitch is healing if you let it. So let it.
@@ -96,7 +96,7 @@ class BirdCard extends Component{
 
               const KINGFISHER=<><Image 
                 source={kingfisher}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style={Styles.cardDescription}>
                 You are in major need of some salmon or sushi in your social life. Go fish. Time to explore your options. Maybe it's something taboo? Like exploring your non-preferred self proclaimed sexual, gendered, or otherwise identities. Let your proverbial hair flow, 'cause covergirl, you're worth it. Maybe she was born with it, maybe it's.. maple leaf...
@@ -105,7 +105,7 @@ class BirdCard extends Component{
               
               const GOOSE=<><Image 
                 source={goose}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style={Styles.cardDescription}>
                 Watch out, canadians are obsessed with goose products and you might end up as dinner or worse, fired! Goose energy tells you that you in danger gurl! Hike your keys, hide your wallet, hide your family 'cause there's a fire. Ain't nobody got time for that..
@@ -114,7 +114,7 @@ class BirdCard extends Component{
               
               const PUFFIN=<><Image 
                 source={puffin}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style={Styles.cardDescription}>
                 Rare, and unique, focus on your individuality. You know you are an endangered species, prune your feathers and let others know how valuable you truly are; Time to ruffle their feathers.
@@ -123,7 +123,7 @@ class BirdCard extends Component{
 
               const HUMMINGBIRD=<><Image 
                 source={hummingbird}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style={Styles.cardDescription}>
                 The hummingbird is a symbol that you are succeeding! Keep beating those wings because it's working! All of the effort you have put into this theme is finally paying off. Time to cash in on your investment. Cha ching.
@@ -131,7 +131,7 @@ class BirdCard extends Component{
               </> 
               const MOLTRES=<><Image 
                 source={moltres}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style={Styles.cardDescription}>
                 The phoenix energy is calling you to rise from your ashes. You need to accept that something is about to change form, and the phoenix is alerting you to this. Do what needs to be done to complete the transformation.
@@ -139,25 +139,25 @@ class BirdCard extends Component{
               </>        
               const VULTURE=<><Image 
                 source={vulture}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style={Styles.cardDescription}>
-                Vulture energy offers us a chance to face and forgive a part of our nature that we find hard to accept. We all have our shadow side. While it remains hidden and unexamined, it exerts enormous power, causing us to do things we hate in ourselves.Once we have owned these unredeemed aspects and face them consciously, their power can become constructive rather than destructive.
+                Vulture energy offers us a chance to face and forgive a part of our nature that we find hard to accept. While our shadow side remains hidden and unexamined, it exerts enormous power, causing us to do things we hate in ourselves. Once we have owned these unredeemed aspects, their power can become constructive rather than destructive.
               </Text>
               </>        
     
               const PHEASANT=<><Image 
                 source={pheasant}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style={Styles.cardDescription}>
-                Pheasant energy indicates that we are connecting with our own power and authority. The shadow aspect of our nature has been tamed, it no longer undermines our progression towards a full connection with our source of power. Use the energy of the Pheasant to fully actualize your power. Power isn't evil, but tends to lean in that direction. Use your new found power responsibly.
+                Pheasant energy indicates that we are connecting with our own power and authority. The shadow aspect of our nature has been tamed, it no longer undermines our progression towards a full connection with our source of power. Use the energy of the Pheasant to fully actualize your power. Power isn't evil, but tends to lean in that direction. Use responsibly.
               </Text>
               </>
 
               const HERON=<><Image 
                 source={heron}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style={Styles.cardDescription}>
                 Selecting the Heron today, is a call to purify yourself. Maybe you are being prepared for a major shift in consciousness, or maybe you have allowed the accretion of too much old energy to build up in your system. It may signal a look at your diet; perhaps a detoxifying regime is needed. Harness the power of the Heron to cleanse thyself.
@@ -166,7 +166,7 @@ class BirdCard extends Component{
 
               const OWL=<><Image 
                 source={owl}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style={Styles.cardDescription}>  
                 Owl energy is ancient reflection. You have a full 180 degrees to look around you. Thanks neck. Take some alone time and self reflection, but seriously. 
@@ -175,7 +175,7 @@ class BirdCard extends Component{
 
               const OSTRICH= <><Image
                 source={ostrich}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style ={Styles.cardDescription}>
                 Use those powerful legs and jettison yourself into the future you are desiring. It's your time to put your solid feet to the ground and launch yourself into the hot summer day. 
@@ -183,7 +183,7 @@ class BirdCard extends Component{
               
                 const PEACOCK= <><Image
                   source={peacock}
-                  style={Styles.cardImageStyling}
+                  style={Styles.CardImage}
                 />
                 <Text style ={Styles.cardDescription}>
                     Work on your image with yourself and others. Peacock energy is all about perception. It is impossible to influence everyone's thoughts of you. Only control the ones you know would make a positive impact. Perception is reality, but don't take it too seriously.
@@ -191,7 +191,7 @@ class BirdCard extends Component{
 
               const FLAMINGO = <><Image
                 source={flamingo} 
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style ={Styles.cardDescription}>
                 You are what you eat, make sure you are ingesting the right things. Both mentally, spiritually, and physically. Remember that the Flamingo is pink because of the canthaxanthin it consumes through the shrimp and blue green algae. If we are what we eat, I'm a loaf of bread and 4 hard boiled eggs. Time to be more conscious of what we consume.
@@ -206,8 +206,8 @@ class BirdCard extends Component{
               </Text></>
               
 
-    let randomBirdsArray = [ PENGUIN ] 
-    // TURQUOISEPARROT,EMU, BIRDOFPARADISEONE,BIRDOFPARADISETWO,BIRDOFPARADISETHREE,FALCON,FLAMINGO,GOOSE,HERON,HUMMINGBIRD,KINGFISHER,MOLTRES,ORIOLE,OSTRICH,OWL,PEACOCK,, PHEASANT,PUFFIN,VULTURE
+    let randomBirdsArray = [ PENGUIN,TURQUOISEPARROT,EMU, BIRDOFPARADISEONE,BIRDOFPARADISETWO,BIRDOFPARADISETHREE,FALCON,FLAMINGO,GOOSE,HERON,HUMMINGBIRD,KINGFISHER,MOLTRES,ORIOLE,OSTRICH,OWL,PEACOCK,PHEASANT,PUFFIN,VULTURE ] 
+    // 
 
 
     // randomly selects a bird from the array 

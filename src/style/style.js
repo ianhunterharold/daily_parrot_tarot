@@ -1,9 +1,6 @@
 import { StyleSheet, Dimensions } from 'react-native';
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
-// const {width: WIDTH, height: HEIGHT} = Dimensions.get('window')
-
-
 const Styles = StyleSheet.create({
   mostExterior:{
     flex:1
@@ -17,7 +14,6 @@ const Styles = StyleSheet.create({
     borderWidth: 1,
   },
   Card: {
-    backgroundColor: '#00FF00',
     height: hp('90%'),
     width: wp('100%'),
   },
@@ -31,7 +27,6 @@ const Styles = StyleSheet.create({
   LandingPageContainer: {
 		justifyContent: 'center',
 		alignItems: 'center',
-		backgroundColor: '#F5FCFF'
 	},
 	LandingPageInstructions: {
 		textAlign: 'center',
@@ -96,7 +91,7 @@ const Styles = StyleSheet.create({
     borderRadius: 70
   },
   cardDescription: {
-    backgroundColor: '#00FF00',
+    
     fontWeight: 'bold',
     marginTop: 10,
     marginLeft: 5,
