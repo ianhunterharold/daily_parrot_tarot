@@ -11,13 +11,24 @@ const Styles = StyleSheet.create({
   exteriorContainer : {
     alignSelf: 'center',
     height: hp('100%'),
-    width: wp('90%')
+    width: wp('100%')
   },
   loadingPageButton: {
     borderWidth: 1,
   },
+  Card: {
+    backgroundColor: '#00FF00',
+    height: hp('90%'),
+    width: wp('100%'),
+  },
+  CardImage: {
+    borderWidth: 1,
+    borderRadius: 70,
+    height: hp('57%'),
+    width: wp('70%'),
+    alignSelf: 'center'
+  },
   LandingPageContainer: {
-		flex: 1,
 		justifyContent: 'center',
 		alignItems: 'center',
 		backgroundColor: '#F5FCFF'
@@ -25,26 +36,22 @@ const Styles = StyleSheet.create({
 	LandingPageInstructions: {
 		textAlign: 'center',
 		color: '#333333',
-		marginBottom: 5
-  },
-  Card: {
-    height: 100,
-    width: 100,
-    alignContent: "center"
+		marginBottom: 10
   },
   LandingPageImageStyle: {
     marginTop: 30,
-    marginBottom: 80,
-    paddingTop: 500,
+    marginBottom: 10,
+    // paddingTop: 500,
     alignSelf: 'center',
-    height: 100,
-    width: 300,
+    height: hp('40%'),
+    width: wp('80%'),
     borderWidth: 1,
     borderRadius: 70
   },
   landingPageWelcomeMessage : {
     fontWeight: 'bold',
-    marginTop: 50,
+    marginTop: 5,
+    marginBottom:10,
     alignSelf: 'center',
     textAlign:'center',
     color:'#FA6A30',
@@ -66,12 +73,14 @@ const Styles = StyleSheet.create({
     borderColor: 'gray', 
     borderWidth: 3,
     alignSelf: 'center',
-    marginBottom: 20,
+    marginBottom: 10,
+    marginTop: 10,
     borderRadius: 12
   },
   questionPageMessage: {
     fontWeight: 'bold',
-    marginTop: 50,
+    marginTop: 5,
+    marginBottom: 10,
     alignSelf: 'center',
     textAlign:'center',
     color:'#FA6A30',
@@ -87,10 +96,11 @@ const Styles = StyleSheet.create({
     borderRadius: 70
   },
   cardDescription: {
+    backgroundColor: '#00FF00',
     fontWeight: 'bold',
     marginTop: 10,
-    marginLeft: 30,
-    marginRight: 30,
+    marginLeft: 5,
+    marginRight: 5,
     alignSelf: 'center',
     textAlign:'center',
     color:'#FA6A30',
@@ -98,14 +108,15 @@ const Styles = StyleSheet.create({
   },
   link: {
     fontWeight: 'bold',
-    marginTop: 50,
-    marginBottom: 20,
+    marginTop: 5,
+    marginBottom: 10,
     alignSelf: 'center',
     textAlign:'center',
     color:'#FA6A30',
     fontSize: 15
   },
   imageCredt: {
+    marginTop: 10,
     alignSelf: 'center',
     textAlign:'center',
     color:'#FA6A30',
@@ -113,21 +124,22 @@ const Styles = StyleSheet.create({
   },
   rateMe: {
     fontWeight: 'bold',
+    marginBottom:15,
     alignSelf: 'center',
     textAlign:'center',
     color:'#FA6A30',
     fontSize: 17
   },
-  infoPagePicture: {
-    marginTop: 20,
-    marginBottom: 20,
-    paddingTop: 500,
-    alignSelf: 'center',
-    height: 100,
-    width: 300,
-    borderWidth: 1,
-    borderRadius: 70
-  },
+  // infoPagePicture: {
+  //   marginTop: 20,
+  //   marginBottom: 20,
+  //   paddingTop: 500,
+  //   alignSelf: 'center',
+  //   height: 100,
+  //   width: 300,
+  //   borderWidth: 1,
+  //   borderRadius: 70
+  // },
 });
 
 export default Styles;

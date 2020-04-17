@@ -2,6 +2,7 @@ import React from 'react';
 import { Image, Button, View, Text, TextInput } from 'react-native';
 import Styles from '../style/style';
 import { useState } from 'react';
+import { Card } from 'react-native-elements';
 
 
 export default function AskPage({ navigation }) {
@@ -10,13 +11,15 @@ export default function AskPage({ navigation }) {
   
   return (
     <View style={Styles.mostExterior}>
-      <View style={Styles.exteriorContainer}>
+      <Card style={Styles.Card}>
+      <View>
+      {/* style={Styles.exteriorContainer} */}
         <Text style={Styles.questionPageMessage}>
           It's the question that drives us... 
         </Text>
         <Image
           source={require('../img/questionPageParrot.png')}
-          style={Styles.questionPageImage}
+          style={Styles.CardImage}
         />
           <TextInput
             style = {Styles.askPageTextInputBox}
@@ -32,6 +35,7 @@ export default function AskPage({ navigation }) {
           }}  
         />
       </View>
+      </Card>
     </View>
   );
 }

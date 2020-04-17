@@ -2,6 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 import { View, Text, Image } from 'react-native';
 import Styles from '../style/style';
+import { Card } from 'react-native-elements'
 
 
 import owl from '../img/owl.png';
@@ -25,7 +26,7 @@ import birdOfParadiseThree from '../img/birdOfParadiseThree.png';
 import emu from '../img/emu.png'; 
 import turquoiseParrot from '../img/turquoiseParrot.png';
 
-class Card extends Component{
+class BirdCard extends Component{
   
 
   randomlySelectABird = () => {
@@ -198,14 +199,15 @@ class Card extends Component{
 
               const PENGUIN= <><Image
                 source={penguin}
-                style={Styles.cardImageStyling}
+                style={Styles.CardImage}
               />
               <Text style ={Styles.cardDescription}>
                 You can endure the harsh winters of the antarctic, avoid being eaten by seals and whales. Make sure your tough exterior still protects your warm and soft undercoat. Your down is what those closest to you will know you for, not your gortex triple wind protected exterior.
               </Text></>
               
 
-    let randomBirdsArray = [ TURQUOISEPARROT,EMU, BIRDOFPARADISEONE,BIRDOFPARADISETWO,BIRDOFPARADISETHREE,FALCON,FLAMINGO,GOOSE,HERON,HUMMINGBIRD,KINGFISHER,MOLTRES,ORIOLE,OSTRICH,OWL,PEACOCK,PENGUIN, PHEASANT,PUFFIN,VULTURE ] 
+    let randomBirdsArray = [ PENGUIN ] 
+    // TURQUOISEPARROT,EMU, BIRDOFPARADISEONE,BIRDOFPARADISETWO,BIRDOFPARADISETHREE,FALCON,FLAMINGO,GOOSE,HERON,HUMMINGBIRD,KINGFISHER,MOLTRES,ORIOLE,OSTRICH,OWL,PEACOCK,, PHEASANT,PUFFIN,VULTURE
 
 
     // randomly selects a bird from the array 
@@ -216,14 +218,21 @@ class Card extends Component{
   render(){
     return(
       <>
-      <View style={Styles.mostExterior}>
-        <View style={Styles.exteriorContainer}>
-        {this.randomlySelectABird()}
+        <View>
+        <Card style={Styles.Card}>
+          <View>
+            {this.randomlySelectABird()}
+          </View>
+        </Card>  
         </View>
-      </View>
       </>
     )
   }
 }
 
-export default Card;
+export default BirdCard;
+
+{/* <View style={Styles.mostExterior}> */}
+        {/* <View style={Styles.exteriorContainer}> */} 
+        {/* </View> */}
+      {/* </View> */}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, View, StyleSheet, Linking, Image} from 'react-native';
 import Styles from '../style/style';
+import { Card } from 'react-native-elements';
 
 
 const pheasant = require('../img/pheasant.png');
@@ -9,7 +10,9 @@ export default function InformationScreen({navigation}){
   return (
     <>
       <View style={Styles.mostExterior}>
-        <View style={Styles.exteriorContainer}>
+        <Card>
+        <View >
+        {/* style={Styles.exteriorContainer} */}
           <Text 
             onPress={ ()=> Linking.openURL('https://www.linkedin.com/in/ianhunterharold') } 
             style={Styles.link}>
@@ -24,7 +27,7 @@ export default function InformationScreen({navigation}){
           </Text>
           <Image 
           source={pheasant} 
-          style={Styles.infoPagePicture}
+          style={Styles.CardImage}
           />
           <Text 
             onPress= { () => Linking.openURL('https://www.freepik.com/free-photos-vectors/Watercolor')} 
@@ -32,6 +35,7 @@ export default function InformationScreen({navigation}){
             ℹ️ Images provided by freepik.com
           </Text>
         </View>
+        </Card>
       </View>
     </>
   )
