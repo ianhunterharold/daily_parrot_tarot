@@ -74,7 +74,7 @@ const Styles = StyleSheet.create({
     marginBottom: 10,
     marginTop: 10,
     borderRadius: 12,
-    color: '#000000'
+    color: '#000000' 
   },
   questionPageMessage: {
     fontWeight: 'bold',
