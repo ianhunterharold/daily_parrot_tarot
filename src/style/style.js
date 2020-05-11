@@ -73,7 +73,8 @@ const Styles = StyleSheet.create({
     alignSelf: 'center',
     marginBottom: 10,
     marginTop: 10,
-    borderRadius: 12
+    borderRadius: 12,
+    color: '#000000'
   },
   questionPageMessage: {
     fontWeight: 'bold',
