@@ -129,6 +129,12 @@ const Styles = StyleSheet.create({
     color:'#FA6A30',
     fontSize: 17
   },
+  askPageErrorMessage: {
+    color: '#FA6A30',
+    fontSize:17,
+    fontWeight:'bold',
+    textAlign:'center'
+  }
   // infoPagePicture: {
   //   marginTop: 20,
   //   marginBottom: 20,

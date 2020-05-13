@@ -7,7 +7,17 @@ import { Card } from 'react-native-elements';
 
 export default function AskPage({ navigation }) {
   
-  const [textInput, setTextInput] = useState('')
+  const [textInput, setTextInput] = useState('');
+
+  
+  const errorMessage = () => {
+    return (
+      <Text >Please Ask a Question</Text>
+    );
+  }
+
+
+
   return (
         <View style ={Styles.outerExterior}>
         <View style={Styles.exteriorContainer} >
@@ -22,6 +32,7 @@ export default function AskPage({ navigation }) {
             value={textInput}
             onChangeText={(text) => setTextInput(text)}
           />
+        <Text style = {Styles.askPageErrorMessage}>{ textInput ? null: errorMessage()}</Text>
         <Image
           source={require('../img/questionPageParrot.png')}
           style={Styles.CardImage}
@@ -30,9 +41,9 @@ export default function AskPage({ navigation }) {
           color="#FA6A30"
           title="Ask"
           onPress={ () => {
-            textInput ? navigation.navigate('Reading'):null; 
-              //navigate if textInput exists 
-            setTextInput(''); 
+            setTextInput('');
+            textInput ? navigation.navigate('Reading'):errorMessage(); 
+              //navigate if textInput exists  
           }}  
         />
       </View>
