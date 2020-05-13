@@ -9,14 +9,11 @@ export default function AskPage({ navigation }) {
   
   const [textInput, setTextInput] = useState('');
 
-  
   const errorMessage = () => {
     return (
       <Text >Please Ask a Question</Text>
     );
   }
-
-
 
   return (
         <View style ={Styles.outerExterior}>

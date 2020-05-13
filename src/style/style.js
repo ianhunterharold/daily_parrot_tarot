@@ -135,16 +135,6 @@ const Styles = StyleSheet.create({
     fontWeight:'bold',
     textAlign:'center'
   }
-  // infoPagePicture: {
-  //   marginTop: 20,
-  //   marginBottom: 20,
-  //   paddingTop: 500,
-  //   alignSelf: 'center',
-  //   height: 100,
-  //   width: 300,
-  //   borderWidth: 1,
-  //   borderRadius: 70
-  // },
 });
 
 export default Styles;

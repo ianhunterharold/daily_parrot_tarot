@@ -11,14 +11,12 @@ export default function LandingPage({ navigation }) {
         <View style={Styles.exteriorContainer} >
         <Card style={Styles.Card}>
         <View >
-        {/* style={Styles.exteriorContainer}  */}
           <Text style={Styles.landingPageWelcomeMessage} >
             Welcome to your daily bird reading! 
             {'\n'}
             {'\n'}
             Venture beyond and ask what is on your mind.
           </Text>
-          
           <TouchableOpacity
           onPress= { () => navigation.navigate('About Creator') }
           >
@@ -27,7 +25,6 @@ export default function LandingPage({ navigation }) {
             style={Styles.CardImage}
           />
           </TouchableOpacity>
-        
           <Button
             color="#FA6A30"
             title="Venture"
