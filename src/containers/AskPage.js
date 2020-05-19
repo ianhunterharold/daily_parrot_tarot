@@ -20,7 +20,6 @@ export default function AskPage({ navigation }) {
         <View style={Styles.exteriorContainer} >
       <Card style={Styles.Card}>
       <View>
-      {/* style={Styles.exteriorContainer} */}
         <Text style={Styles.questionPageMessage}>
           It's the question that drives us... 
         </Text>
@@ -40,7 +39,6 @@ export default function AskPage({ navigation }) {
           onPress={ () => {
             setTextInput('');
             textInput ? navigation.navigate('Reading'):errorMessage(); 
-              //navigate if textInput exists  
           }}  
         />
       </View>
