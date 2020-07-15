@@ -16,6 +16,7 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* daily_parrot_tarotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* daily_parrot_tarotTests.m */; };
+		4527EAE724BFB3EC005A2217 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4527EAE624BFB3EC005A2217 /* Launch Screen.storyboard */; };
 		96EED03A01B687AFB2123992 /* libPods-daily_parrot_tarot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 398D1CECCE92BAC6589A151F /* libPods-daily_parrot_tarot.a */; };
 		AA45EAF40CDE4F320F695FBD /* libPods-daily_parrot_tarot-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646CA1907FD8347DD06A548E /* libPods-daily_parrot_tarot-tvOS.a */; };
 		D2ACEB52EFCF417B6EC589CE /* libPods-daily_parrot_tarot-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DEA48A3F8E67319B95A870 /* libPods-daily_parrot_tarot-tvOSTests.a */; };
@@ -56,6 +57,7 @@
 		2D02E47B1E0B4A5D006451C7 /* daily_parrot_tarot-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "daily_parrot_tarot-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* daily_parrot_tarot-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "daily_parrot_tarot-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		398D1CECCE92BAC6589A151F /* libPods-daily_parrot_tarot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-daily_parrot_tarot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4527EAE624BFB3EC005A2217 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		5D7020F0AB14DAEC405DD28E /* Pods-daily_parrot_tarot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daily_parrot_tarot.release.xcconfig"; path = "Target Support Files/Pods-daily_parrot_tarot/Pods-daily_parrot_tarot.release.xcconfig"; sourceTree = "<group>"; };
 		614D52F77B7E53E6D39F5860 /* Pods-daily_parrot_tarotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daily_parrot_tarotTests.debug.xcconfig"; path = "Target Support Files/Pods-daily_parrot_tarotTests/Pods-daily_parrot_tarotTests.debug.xcconfig"; sourceTree = "<group>"; };
 		646CA1907FD8347DD06A548E /* libPods-daily_parrot_tarot-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-daily_parrot_tarot-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +134,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				4527EAE624BFB3EC005A2217 /* Launch Screen.storyboard */,
 			);
 			name = daily_parrot_tarot;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4527EAE724BFB3EC005A2217 /* Launch Screen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -378,7 +382,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -882,7 +886,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -929,7 +933,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
