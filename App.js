@@ -2,6 +2,8 @@ import 'react-native-gesture-handler';
 //line above needs to stay at the top indicated by https://reactnavigation.org/docs/getting-started/
 
 import * as React from 'react';
+import { useEffect } from 'react';
+import SplashScreen from 'react-native-splash-screen';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack'
 import { View } from 'react-native';
@@ -16,6 +18,12 @@ import Styles from './src/style/style';
 const Stack = createStackNavigator();
 
 export default function App() {
+
+    useEffect(()=> {
+      SplashScreen.hide();
+    }, []);
+    // immitates react lifecyle method cdm     
+
   return (
     <View style ={Styles.outerExterior}>
     <View style={Styles.exteriorContainer} >

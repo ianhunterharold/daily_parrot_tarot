@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, Button, View, Text, TextInput } from 'react-native';
 import Styles from '../style/style';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Card } from 'react-native-elements';
 
 

@@ -12,7 +12,7 @@ const Styles = StyleSheet.create({
   },
   loadingPageButton: {
     borderWidth: 1,
-  },
+  }, 
   Card: {
     height: hp('100%'),
     width: wp('100%'),
