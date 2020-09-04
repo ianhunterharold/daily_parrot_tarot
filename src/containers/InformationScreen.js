@@ -21,7 +21,6 @@ export default function InformationScreen({navigation}){
           <Text 
             onPress={ ()=> Linking.openURL('https://apps.apple.com/us/developer/secure-speak-llc/id1169875966')}
             style = {Styles.rateMe}
-            // the link above will change depending on what link will be generated at publishing
             >
             Rate Me! {'\n'} 
             ⭐️⭐️⭐️⭐️⭐️
