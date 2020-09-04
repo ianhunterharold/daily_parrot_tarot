@@ -206,26 +206,24 @@ class BirdCard extends Component{
               </Text></>
               
 
-    let randomBirdsArray = [ PENGUIN,TURQUOISEPARROT,EMU, BIRDOFPARADISEONE,BIRDOFPARADISETWO,BIRDOFPARADISETHREE,FALCON,FLAMINGO,GOOSE,HERON,HUMMINGBIRD,KINGFISHER,MOLTRES,ORIOLE,OSTRICH,OWL,PEACOCK,PHEASANT,PUFFIN,VULTURE ] 
-    // 
-
+    let randomBirdsArray = [ PENGUIN,TURQUOISEPARROT,EMU, BIRDOFPARADISEONE,BIRDOFPARADISETWO,BIRDOFPARADISETHREE,FALCON,FLAMINGO,GOOSE,HERON,HUMMINGBIRD,KINGFISHER,MOLTRES,ORIOLE,OSTRICH,OWL,PEACOCK,PHEASANT,PUFFIN,VULTURE ];
 
     // randomly selects a bird from the array 
     let randomSelectionOfBird = randomBirdsArray[Math.floor(Math.random() * randomBirdsArray.length)] 
-    return randomSelectionOfBird
+    return randomSelectionOfBird;
   }
 
   render(){
     return(
       <>
         <View style ={Styles.outerExterior}>
-        <View style={Styles.exteriorContainer} >
-        <Card style={Styles.Card}>
-          <View>
-            {this.randomlySelectABird()}
+          <View style={Styles.exteriorContainer} >
+            <Card style={Styles.Card}>
+              <View>
+                {this.randomlySelectABird()}
+              </View>
+            </Card>  
           </View>
-        </Card>  
-        </View>
         </View>
       </>
     )
@@ -233,8 +231,3 @@ class BirdCard extends Component{
 }
 
 export default BirdCard;
-
-{/* <View style={Styles.mostExterior}> */}
-        {/* <View style={Styles.exteriorContainer}> */} 
-        {/* </View> */}
-      {/* </View> */}
