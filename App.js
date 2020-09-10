@@ -28,9 +28,9 @@ export default function App() {
     <View style ={Styles.outerExterior}>
     <View style={Styles.exteriorContainer} >
     <NavigationContainer>
-      <Stack.Navigator  initialRouteName="Daily Tarrot Parrot">
+      <Stack.Navigator  initialRouteName="Parrot Tarot Reading">
         <Stack.Screen name="About Creator" component={InformationScreen} />
-        <Stack.Screen name="Daily Tarrot Parrot" component={LandingPage} />
+        <Stack.Screen name="Parrot Tarot Reading" component={LandingPage} />
         <Stack.Screen name="Ask Away" component={AskPage}/>
         <Stack.Screen name="Reading" component={ BirdCard }/>
       </Stack.Navigator>
