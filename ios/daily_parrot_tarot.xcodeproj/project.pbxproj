@@ -683,7 +683,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.secureSpeak.app-name.";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.secureSpeak.daily-parrot-tarot";
 				PRODUCT_NAME = "Daily Parrot Tarot";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -704,7 +704,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.secureSpeak.app-name.";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.secureSpeak.daily-parrot-tarot";
 				PRODUCT_NAME = "Daily Parrot Tarot";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
